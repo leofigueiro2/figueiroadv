@@ -1,0 +1,19 @@
+.header {
+  align-items: center;
+  background-color: var(--ref--secondary--secondary40);
+  box-sizing: border-box;
+  display: flex;
+  height: 100px;
+  & ul {
+    display: flex;
+    margin: 0;
+    & li {
+      list-style: none;
+      & a {
+        color: var(--sys--light--on-secondary);
+        font-size: var(--title--medium);
+        text-decoration: none;
+      }
+    }
+  }
+}

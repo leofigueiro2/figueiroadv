@@ -1,0 +1,7 @@
+.logo {
+  & h1 {
+    color: var(--sys--light--on-secondary);
+    font-family: var(--charm);
+    font-size: var(--display--large);
+  }
+}

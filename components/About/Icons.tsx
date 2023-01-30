@@ -1,5 +1,5 @@
 import styled from '../../src/styles/About/Icons.module.scss';
-import Missao from '../../public/icons/About/Missao.svg';
+import Missao from '../../public/icons/About/missao.svg';
 import Foco from '../../public/icons/About/foco.svg';
 import Valores from '../../public/icons/About/valores.svg';
 

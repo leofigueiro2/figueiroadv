@@ -2,8 +2,8 @@ import '@/styles/globals.css';
 import { Charm, Libre_Franklin } from '@next/font/google';
 import { NextPage } from 'next';
 import type { AppProps } from 'next/app';
-import { ReactElement, ReactNode } from 'react';
-
+import Head from 'next/head';
+import { ReactElement, ReactNode, useEffect } from 'react';
 
 const charm = Charm({
   subsets: ['latin'],
@@ -21,6 +21,9 @@ type AppPropsWithLayout = AppProps & {
 }
 
 export default function App({ Component, pageProps }: AppPropsWithLayout) {
+  useEffect(() => {
+    require('bootstrap/dist/js/bootstrap.bundle.min.js');
+  }, []);
   
   const getLayout = Component.getLayout ?? ((page) => page);
   return getLayout(
@@ -31,6 +34,9 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
           --libre: ${libre.style.fontFamily};
         }
       `}</style>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <Component {...pageProps} />
     </>
 

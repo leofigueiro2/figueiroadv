@@ -7,9 +7,8 @@ import Facebook from '../../public/icons/Facebook.svg';
 
 export default function Footer() {
   return (
-    <footer className={styled.footer}>
-
-      <ul>
+    <footer className={`${styled.footer} d-flex align-items-center justify-content-between flex-wrap flex-lg-nowrap gap-3`}>
+      <ul className='container'>
         <span>MENU</span>
         <li><a href="#">Início</a></li>
         <li><a href="#">Áreas de atuação</a></li>
@@ -18,14 +17,14 @@ export default function Footer() {
         <li><a href="#">Blog</a></li>
       </ul>
 
-      <ul className='align-self-start'>
+      <ul className='align-self-start container'>
         <span>ATUAÇÃO</span>
         <li><a href="#">Direito de família</a></li>
         <li><a href="#">Sucessões</a></li>
         <li><a href="#">Contratos</a></li>
         <li><a href="#">Responsabilidade Civil</a></li>
       </ul>
-      <ul className='align-self-start'>
+      <ul className='align-self-start container'>
         <span>CONTATOS</span>
         <li>
           <div>
@@ -47,8 +46,10 @@ export default function Footer() {
         </li>
 
       </ul>
+    
 
       <LogoTexto />
+
 
     </footer>
   );

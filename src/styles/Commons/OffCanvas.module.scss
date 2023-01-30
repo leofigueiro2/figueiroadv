@@ -1,0 +1,34 @@
+.section {
+  background-color: var(--ref--secondary--secondary60);
+  & .btn {
+    padding: 0;
+  }
+  & div {
+    align-items: flex-start;
+    border-bottom: 1px dotted;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    & a {
+      color: var(--ref--secondary--secondary98);
+      font-size: 0.8rem;
+      text-decoration: none;
+    }
+  }
+  & ul {
+    background-color: var(--ref--secondary--secondary70);
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: flex-start;
+    & li {
+      text-align: start;
+      width: 100%;
+      & a {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

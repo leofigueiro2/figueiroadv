@@ -19,11 +19,13 @@
     "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-input-mask": "^2.0.4",
     "sass": "^1.57.1",
     "typescript": "*"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.5.1",
+    "@types/react-input-mask": "^3.0.2",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "eslint-config-standard-with-typescript": "^32.0.0",
     "eslint-plugin-import": "^2.25.2",

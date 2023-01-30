@@ -10,7 +10,7 @@ const charm = Charm({
   weight: '400'
 });
 
-const libre = Libre_Franklin({ subsets: ['latin'] })
+const libre = Libre_Franklin({ subsets: ['latin'] });
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode

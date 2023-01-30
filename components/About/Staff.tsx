@@ -35,7 +35,7 @@ export default function Staff() {
                   Estudante e entusiasta de economia;
               </li>
               <li>
-                  Membro e pesquisador do grupo de pesquisa "Direito do Trabalho Contemporâneo" da Universidade Federal do Mato Grosso;
+                  Membro e pesquisador do grupo de pesquisa &quot Direito do Trabalho Contemporâneo &quot da Universidade Federal do Mato Grosso;
               </li>
               <li>
             Pesquisador do efeito econômico das normas e decisões judiciais.

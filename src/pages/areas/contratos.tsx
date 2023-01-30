@@ -13,14 +13,14 @@ function Contratos() {
         <div className='d-flex flex-column container gap-3 py-5'>
 
           <h2>Contratos</h2>
-          <p>Entenda os principais pontos de atuação de nossos especialistas em direito do trabalho</p>
+          <p>A importância de consultar um especialista em contratos antes e durante qualquer negociação</p>
         </div>
       </section>
 
-      <section className='container d-flex py-5'>
+      <section className='container d-flex py-5 flex-wrap flex-lg-nowrap gap-4'>
         <div className='container d-flex flex-column gap-4'>
           <h3 className="section__title">
-            Somos um escritório de advocacia especializado em Direito Trabalhista
+            Qual a importância de se consultar com um advogado contratualista?
           </h3>
           <div className='d-flex flex-column gap-2'>
 

@@ -71,8 +71,8 @@ export default function Header() {
 
             </li>
             <li><Link className={router.pathname === '/about' ? styled.link__ativo : ''} href="/about">Quem somos</Link></li>
-            <li><Link className={router.pathname === '/contato' ? styled.link__ativo : ''} href="contato">Contato</Link></li>
-            <li><Link className={router.pathname === '/blog' ? styled.link__ativo : ''} href="blog">Blog</Link></li>
+            <li><Link className={router.pathname === '/contato' ? styled.link__ativo : ''} href="/contato">Contato</Link></li>
+            <li><Link className={router.pathname === '/blog' ? styled.link__ativo : ''} href="/blog">Blog</Link></li>
           </ul>
         </nav>
         <div className='d-lg-none d-md-block'>

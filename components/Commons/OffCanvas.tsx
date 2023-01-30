@@ -24,26 +24,28 @@ export default function OffCanvas() {
 
         <ul className='collapse' id='atuacao'>
           <li data-bs-dismiss='offcanvas'>
-            <Link href={'#'}>Direito do trabalho</Link>
+            <Link href={'/areas/trabalhista'} replace>Direito do trabalho</Link>
           </li>
           <li data-bs-dismiss='offcanvas'>
-            <Link href={'#'}>Sucessões</Link>
+            <Link href={'/areas/sucessao'} replace>Sucessões</Link>
+          </li>
+          <li data-bs-dismiss='offcanvas'>
+            <Link href={'/areas/contratos'} replace>Contratos</Link>
+          </li>
+          <li data-bs-dismiss='offcanvas'>
+            <Link href={'/areas/civil'} replace>Responsabilidade civil</Link>
           </li>
         </ul>
 
 
-
         <div className="item" data-bs-dismiss="offcanvas">
-          <Link  href={'#'}>Sobre nós</Link>
+          <Link  href={'/about'}>Quem somos</Link>
         </div>
         <div className="item" data-bs-dismiss="offcanvas">
-          <Link  href={'#'}>Quem somos</Link>
+          <Link  href={'/contato'}>Contato</Link>
         </div>
         <div className="item" data-bs-dismiss="offcanvas">
-          <Link  href={'#'}>Contato</Link>
-        </div>
-        <div className="item" data-bs-dismiss="offcanvas">
-          <Link  href={'#'}>Blog</Link>
+          <Link  href={'/blog'}>Blog</Link>
         </div>
 
       </div>

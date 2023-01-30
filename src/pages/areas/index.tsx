@@ -63,7 +63,7 @@ function Home() {
         </div>
         <div
           className={`${styled.div__card} position-relative`}
-          onClick={() => router.push('/#')}
+          onClick={() => router.push('/areas/sucessoes')}
         >
           <Image className='img-fluid' src={Contratos} alt="" />
           <div className={`${styled.card} mb-3 p-3`}>
@@ -101,7 +101,7 @@ function Home() {
               <li>Defesas em ações indenizatórias</li>
               <li>Duty to mitigate the loss</li>
             </ul>
-            <Link href={'/civil'} replace>Clique para saber mais</Link>
+            <Link href={'/areas/civil'} replace>Clique para saber mais</Link>
           </div>
         </div>
 

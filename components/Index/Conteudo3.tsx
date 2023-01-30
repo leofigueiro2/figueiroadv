@@ -18,7 +18,7 @@ export default function Conteudo3() {
 
         <div 
           className={`${styled.div__card} position-relative`}
-          onClick={() => router.push('/#')}
+          onClick={() => router.push('/areas/trabalhista')}
         >
           <Image className='img-fluid' src={Trabalho} alt="" />
           <div className={`${styled.card} mb-3 p-3`}>
@@ -30,7 +30,7 @@ export default function Conteudo3() {
         </div>
         <div 
           className={`${styled.div__card} position-relative`}
-          onClick={() => router.push('/#')}
+          onClick={() => router.push('/areas/sucessoes')}
         >
           <Image className='img-fluid' src={Sucessao} alt="" />
           <div className={`${styled.card} mb-3 p-3`}>
@@ -42,7 +42,7 @@ export default function Conteudo3() {
         </div>
         <div 
           className={`${styled.div__card} position-relative`}
-          onClick={() => router.push('/#')}
+          onClick={() => router.push('/areas/contratos')}
         >
           <Image className='img-fluid' src={Contratos} alt="" />
           <div className={`${styled.card} mb-3 p-3`}>
@@ -54,7 +54,7 @@ export default function Conteudo3() {
         </div>
         <div 
           className={`${styled.div__card} position-relative`}
-          onClick={() => router.push('/#')}
+          onClick={() => router.push('/areas/civil')}
         >
           <Image className='img-fluid' src={RespCivil} alt="" />
           <div className={`${styled.card} mb-3 p-3`}>

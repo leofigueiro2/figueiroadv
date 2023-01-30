@@ -12,15 +12,15 @@ function Sucessoes() {
       <section className={styled.section} style={{backgroundImage: 'url(\'/bgs/areas/sucessoes.webp\')'}}>
         <div className='d-flex flex-column container gap-3 py-5'>
 
-          <h2>Direito do trabalho</h2>
-          <p>Entenda os principais pontos de atuação de nossos especialistas em direito do trabalho</p>
+          <h2>Sucessões</h2>
+          <p>Entenda o que é sucessão e como podemos ajudar</p>
         </div>
       </section>
 
-      <section className='container d-flex py-5'>
+      <section className='container d-flex py-5 flex-wrap flex-lg-nowrap gap-4'>
         <div className='container d-flex flex-column gap-4'>
           <h3 className="section__title">
-            Somos um escritório de advocacia especializado em Direito Trabalhista
+            Somos especializados em sucessões
           </h3>
           <div className='d-flex flex-column gap-2'>
 

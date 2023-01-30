@@ -13,14 +13,14 @@ function Civil() {
         <div className='d-flex flex-column container gap-3 py-5'>
 
           <h2>Responsabilidade Civil</h2>
-          <p>Entenda os principais pontos de atuação de nossos especialistas em direito do trabalho</p>
+          <p>Saiba o que fazer alguém lhe causa dano</p>
         </div>
       </section>
 
-      <section className='container d-flex py-5'>
+      <section className='container d-flex py-5 flex-wrap flex-lg-nowrap gap-4'>
         <div className='container d-flex flex-column gap-4'>
           <h3 className="section__title">
-            Somos um escritório de advocacia especializado em Direito Trabalhista
+            Quando entrar na justiça quando alguém nos causa danos?
           </h3>
           <div className='d-flex flex-column gap-2'>
 

@@ -17,7 +17,7 @@ function Trabalhista() {
         </div>
       </section>
 
-      <section className='container d-flex py-5'>
+      <section className='container d-flex py-5 flex-wrap flex-lg-nowrap gap-4'>
         <div className='container d-flex flex-column gap-4'>
           <h3 className="section__title">
             Somos um escritório de advocacia especializado em Direito Trabalhista

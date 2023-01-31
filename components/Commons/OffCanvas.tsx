@@ -27,7 +27,7 @@ export default function OffCanvas() {
             <Link href={'/areas/trabalhista'} replace>Direito do trabalho</Link>
           </li>
           <li data-bs-dismiss='offcanvas'>
-            <Link href={'/areas/sucessao'} replace>Sucessões</Link>
+            <Link href={'/areas/sucessoes'} replace>Sucessões</Link>
           </li>
           <li data-bs-dismiss='offcanvas'>
             <Link href={'/areas/contratos'} replace>Contratos</Link>

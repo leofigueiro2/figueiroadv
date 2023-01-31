@@ -16,7 +16,7 @@ export default function Form() {
   const [tel, setTel] = useState('');
   const [email, setEmail] = useState('');
   const [msg, setMsg] = useState('');
-  const [plano, setPlano] = useState('interiores');
+  //const [plano, setPlano] = useState('interiores');
 
   // const data = {
   //   service_id: 'service_3snekti',
@@ -111,7 +111,7 @@ export default function Form() {
             required
           />
         </div>
-
+        {/* 
         <div className="d-flex flex-column w-100 gap-1">
           <label>Opção de plano</label>
           <select
@@ -122,7 +122,7 @@ export default function Form() {
             <option value="bronze">Plano Bronze</option>
           </select>
 
-        </div>
+        </div> */}
 
         <div className='d-flex flex-column w-100 gap-1'>
           <label htmlFor="msg">Mensagem</label>

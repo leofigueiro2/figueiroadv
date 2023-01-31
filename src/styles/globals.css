@@ -281,5 +281,15 @@ body {
 
 .section__texto {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 25px;
+}
+
+.section__lista {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 25px;
+  list-style-type: disc;
+  margin-left: 20px;
 }

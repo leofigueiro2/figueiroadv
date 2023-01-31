@@ -7,7 +7,7 @@ import styled from '../../src/styles/Index/Carrossel.module.scss';
 
 export default function Carrossel() {
   return (
-    <section id="carouselExampleCaptions" className={`${styled.section} carousel slide`}>
+    <section id="carouselExampleCaptions" data-bs-ride="carousel" className={`${styled.section} carousel slide`}>
 
       <div className="carousel-inner">
         <div className="carousel-item active">

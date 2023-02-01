@@ -3,16 +3,23 @@ import Contact from '../../../public/icons/Areas/contact.svg';
 import { ReactElement } from 'react';
 import styled from '../../styles/Areas/Commons.module.scss';
 import Form from 'components/Commons/Form';
+import Head from 'next/head';
 
 
 
 function Sucessoes() {
   return (
     <>
+      <Head>
+        <meta name="description" content="Aprenda tudo sobre inventário, incluindo conceitos, processos, documentação necessária, entre outros aspectos importantes."/>
+        <meta name="keywords" content="inventário, bens, herança, testamento, inventariante"/>
+        <meta name="robots" content="index,follow"/>
+        <meta name="revisit-after" content="7 days"/>
+      </Head>
       <section className={styled.section} style={{ backgroundImage: 'url(\'/bgs/areas/sucessoes.webp\')' }}>
         <div className='d-flex flex-column container gap-3 py-5'>
 
-          <h2>Sucessões</h2>
+          <h1>Sucessões / Inventário</h1>
           <p>Entenda o que é sucessão e como podemos ajudar</p>
         </div>
       </section>
@@ -73,6 +80,15 @@ function Sucessoes() {
             <p className="section__texto">
               O inventário mais rápido (e recomendado por nós), é o extrajudicial, que pode ser finalizado em até uma semana, a depender do cartório
               e da disponibilidade da documentação.
+            </p>
+          </div>
+          <h3 className="section__title">
+          É preciso pagar impostos sobre os bens do inventário?
+          </h3>
+          <div className='d-flex flex-column gap-2'>
+
+            <p className='section__texto'>
+            Sim, é necessário pagar impostos sobre os bens do inventário, incluindo o Imposto de Transmissão Causa Mortis e Doação (ITCMD) e o Imposto de Renda (IR).
             </p>
           </div>
         </div>

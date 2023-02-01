@@ -3,6 +3,7 @@ import LogoTexto from './Logo';
 import Whatsapp from '../../public/icons/WhatsApp.svg';
 import Instagram from '../../public/icons/Instagram.svg';
 import Facebook from '../../public/icons/Facebook.svg';
+import Link from 'next/link';
 
 
 export default function Footer() {
@@ -10,19 +11,19 @@ export default function Footer() {
     <footer className={`${styled.footer} d-flex align-items-center justify-content-between flex-wrap flex-lg-nowrap gap-3`}>
       <ul className='container'>
         <span>MENU</span>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Áreas de atuação</a></li>
-        <li><a href="#">Quem somos</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><Link href="/">Início</Link></li>
+        <li><Link href="/areas">Áreas de atuação</Link></li>
+        <li><Link href="about">Quem somos</Link></li>
+        <li><Link href="contato">Contato</Link></li>
+        <li><Link href="blog">Blog</Link></li>
       </ul>
 
       <ul className='align-self-start container'>
         <span>ATUAÇÃO</span>
-        <li><a href="#">Direito de família</a></li>
-        <li><a href="#">Sucessões</a></li>
-        <li><a href="#">Contratos</a></li>
-        <li><a href="#">Responsabilidade Civil</a></li>
+        <li><Link href="/areas/trabalhista">Direito do trabalho</Link></li>
+        <li><Link href="/areas/sucessoes">Sucessões</Link></li>
+        <li><Link href="/areas/contratos">Contratos</Link></li>
+        <li><Link href="/areas/civil">Responsabilidade Civil</Link></li>
       </ul>
       <ul className='align-self-start container'>
         <span>CONTATOS</span>

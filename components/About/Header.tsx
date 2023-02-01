@@ -16,12 +16,8 @@ export default function Header() {
         </div>
         <div className='container'>
           <p className={styled.text}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sapiente fugit inventore porro cupiditate magnam quo sunt ex dicta nihil.
-            Sit impedit perferendis eum aut! Fugit quaerat blanditiis velit nam vitae!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sapiente fugit inventore porro cupiditate magnam quo sunt ex dicta nihil.
-            Sit impedit perferendis eum aut! Fugit quaerat blanditiis velit nam vitae!
+            Estamos no mercado há 13 anos, com um corpo jurídico formado por especialistas em diversas áreas, com várias anos de experiência.
+            Buscamos sempre otimizar nossos serviços para ampliação do atendimento remoto de nossos clientes
           </p>
         </div>
       </div>

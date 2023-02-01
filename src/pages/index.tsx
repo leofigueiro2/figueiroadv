@@ -19,7 +19,6 @@ function Home() {
   );
 }
 
-
 Home.getLayout = function getLayout(page: ReactElement) {
   return (
     <Layout>

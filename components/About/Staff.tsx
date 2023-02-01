@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styled from '../../src/styles/About/Staff.module.scss';
 import Image from 'next/image';
 import Leonardo from '../../public/images/about/leonardo.webp';
@@ -7,7 +8,7 @@ export default function Staff() {
     <section className={`${styled.section} py-5`}>
       <div className='d-flex container'>
         <div className='container d-flex flex-column gap-5'>
-          <h3 className='section__title'>Equipe</h3>
+          <h3 className='section__title'>Sócio-fundador</h3>
           <div className='d-flex flex-wrap-reverse flex-lg-nowrap justify-content-center'>
             <ul className='section__texto d-flex flex-column gap-3 container'>
               <li>
@@ -35,7 +36,7 @@ export default function Staff() {
                   Estudante e entusiasta de economia;
               </li>
               <li>
-                  Membro e pesquisador do grupo de pesquisa &quot Direito do Trabalho Contemporâneo &quot da Universidade Federal do Mato Grosso;
+                  Membro e pesquisador do grupo de pesquisa "Direito do Trabalho Contemporâneo" da Universidade Federal do Mato Grosso;
               </li>
               <li>
             Pesquisador do efeito econômico das normas e decisões judiciais.

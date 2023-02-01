@@ -7,23 +7,23 @@ export default function Content1() {
       <div className='d-flex container flex-wrap flex-lg-nowrap'>
         <div className='container d-flex flex-column gap-5'>
           <h3 className='section__title'>História da Figueiró Advocacia</h3>
-          <div>
+          <div className='d-flex flex-column gap-3'>
             <p className='section__texto'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa dui, molestie ut consectetur sed,
-              finibus nec velit. Donec sed vehicula nisl, et dictum nulla. Vestibulum efficitur ut nunc ut blandit.
-              Mauris non malesuada dui. Aliquam eu nulla justo. Nulla varius nulla a dui auctor, eu placerat nunc
-              iaculis. Nullam id dignissim quam, dapibus tempor sapien. Morbi porta, elit et fringilla viverra,
-              turpis est gravida ex, non mollis sapien quam et lorem. Duis malesuada finibus nulla eu pulvinar.
-              Donec fermentum nisl nibh, vitae vulputate velit faucibus in. In hac habitasse platea dictumst.
-              Suspendisse id augue sed ipsum molestie lacinia.
+            A equipe de advogados do escritório passa por uma rigorosa seleção, a fim de termos profissionais 
+            que estejam de acordo com nossos critérios de qualidade e responsabilidade. Dispondo de um corpo 
+            jurídico devidamente especializado nas mais diversas áreas do Direito, e capaz de atender quaisquer 
+            demandas contenciosas ou consultivas.
             </p>
             <p className='section__texto'>
-              In faucibus nec libero in facilisis. Nullam rutrum diam at porttitor iaculis. Sed efficitur lacus
-              orci, at porttitor felis venenatis nec. Sed at ipsum eget libero dignissim elementum. Integer diam
-              lorem, tempor interdum sagittis eget, tempus vel sem. Etiam sem nunc, aliquet id metus sagittis,
-              posuere tincidunt diam. Aenean ultricies enim sed eros venenatis faucibus. Cras eu pellentesque massa,
-              non placerat nisi. Mauris aliquam aliquam sollicitudin. Donec eu viverra sem. Proin elementum mollis
-              mauris in efficitur.
+            Para nós, a satisfação do cliente com o serviço prestado é a maior conquista. Portanto, priorizamos 
+            a ética em nossas relações e buscamos constantemente uma prestação de serviços qualificada. Além disso, 
+            a nossa carteira de clientes compreende um grupo diversificado, o que nos torna uma equipe multidisciplinar, 
+            atuante em diversos segmentos jurídicos.
+            </p>
+            <p className='section__texto'>
+            Buscamos, desde o advento da pandemia de coronavírus (2020), otimizar nossa estrutura e forma de atendimento
+            para o atendimento online, melhorando o acesso dos clientes ao andamento de seus processos e otmizando tempo 
+            e resultado.
             </p>
           </div>
         </div>

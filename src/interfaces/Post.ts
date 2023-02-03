@@ -1,4 +1,4 @@
-export default interface Post {
+interface Post {
   id: number,
   title: {
     rendered: string
@@ -12,5 +12,7 @@ export default interface Post {
     rendered: string
   }
   date: string,
-  featured_media: number
+  fimg_url: string
 }
+
+export default Post;

@@ -1,12 +1,19 @@
+import CardsPrincipais from 'components/Blog/CardsPrincipais';
+import Content1 from 'components/Blog/Content1';
+import Header from 'components/Blog/Header';
 import Layout from 'components/Commons/layout';
 import { ReactElement } from 'react';
 
 
 function Blog() {
   return (
-    <section className='d-flex justify-content-center p-5'>
-      <h2 className='section__title p-5'>Página em contrução</h2>
-    </section>
+    <>
+      <Header/>
+      <section className='container'>
+        <Content1/>
+        <CardsPrincipais/>
+      </section>
+    </>
   );
 }
 

@@ -293,3 +293,10 @@ body {
   list-style-type: disc;
   margin-left: 20px;
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

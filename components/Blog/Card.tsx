@@ -8,10 +8,11 @@ interface Card {
   src: string,
   autor: string,
   data: string,
-  leitura: string
+  leitura: string,
+  alt: string
 }
 
-export default function Card({titulo, link, src, autor, data, leitura}: Card) {
+export default function Card({titulo, link, src, autor, data, alt, leitura}: Card) {
   return (
 
     <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12' >
@@ -19,12 +20,12 @@ export default function Card({titulo, link, src, autor, data, leitura}: Card) {
         <div className={styled.border}>
           <Link href={link} title={titulo}>
             <figure>
-              <Image className={styled.img} src={src} alt={titulo} width={1000} height={1000}/>
+              <Image className={styled.img} src={src} alt={alt} width={500} height={100}/>
             </figure>
           </Link>
           <div className={styled.card__conteudo}>
             <h3 className={styled.card__titulo}>
-              <Link href={'#'}>
+              <Link href={link}>
                 {titulo}
               </Link>
             </h3>

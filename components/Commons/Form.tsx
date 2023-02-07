@@ -1,65 +1,28 @@
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
 import InputMask from 'react-input-mask';
-//import axios from 'axios';
 import styled from '../../src/styles/Commons/Form.module.scss';
-
-
+import { useForm, ValidationError } from '@formspree/react';
 
 
 export default function Form() {
 
-
-
+  const [state, handleSubmit] = useForm('xyyaekgd');
 
   const [nome, setNome] = useState('');
   const [sobrenome, setSobrenome] = useState('');
   const [tel, setTel] = useState('');
   const [email, setEmail] = useState('');
   const [msg, setMsg] = useState('');
-  //const [plano, setPlano] = useState('interiores');
 
-  // const data = {
-  //   service_id: 'service_3snekti',
-  //   template_id: 'template_t5rhirh',
-  //   user_id: 'XogwfPiQvNhjKK6Dd',
-  //   template_params: {
-  //     'name': nome,
-  //     'last_name': sobrenome,
-  //     'tel': tel,
-  //     'email': email,
-  //     'plano': plano,
-  //     'msg': msg
-  //   }
-  // };
-
-
-  // const sendEmail = (e: FormEvent<HTMLFormElement>) => {
-  //   e.preventDefault();
-  //   axios.post('https://api.emailjs.com/api/v1.0/email/send', data)
-  //     .then(() => {
-  //       alert('Seu e-mail foi enviado! Em breve retornaremos.');
-  //     })
-  //     .catch((err) => {
-  //       console.log(JSON.stringify(err));
-  //     })
-  //     .then(() => {
-  //       setNome('');
-  //       setEmail('');
-  //       setMsg('');
-  //       setSobrenome('');
-  //       setTel('');
-  //     });
-  // };
-
-  // onSubmit={(event) => {
-  //   sendEmail(event);
-  // }}
+  if(state.succeeded) {
+    return <p>Obrigado por entrar em contato. Em breve retornaremos</p>;
+  }
 
   return (
     <section className={`${styled.section__form} d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center px-1`}>
-      <form 
-        className='d-flex flex-column gap-3 align-items-center' 
-        method='POST' 
+      <form
+        className='d-flex flex-column gap-3 align-items-center'
+        onSubmit={handleSubmit}
       >
         <div className='d-flex gap-3'>
           <div className='d-flex flex-column gap-1'>
@@ -74,6 +37,11 @@ export default function Form() {
               }}
               required
 
+            />
+            <ValidationError
+              prefix='name'
+              field='name'
+              errors={state.errors}
             />
           </div>
           <div className='d-flex flex-column gap-1'>
@@ -97,6 +65,7 @@ export default function Form() {
             placeholder={'(99) 99999-9999'}
             value={tel}
             onChange={event => setTel(event.target.value)}
+            required
           />
         </div>
 
@@ -111,18 +80,6 @@ export default function Form() {
             required
           />
         </div>
-        {/* 
-        <div className="d-flex flex-column w-100 gap-1">
-          <label>Opção de plano</label>
-          <select
-            onChange={(field) => setPlano(field.target.value)}
-          >
-            <option value="ouro">Plano Ouro</option>
-            <option value="prata">Plano Prata</option>
-            <option value="bronze">Plano Bronze</option>
-          </select>
-
-        </div> */}
 
         <div className='d-flex flex-column w-100 gap-1'>
           <label htmlFor="msg">Mensagem</label>
@@ -136,9 +93,15 @@ export default function Form() {
           />
         </div>
 
+        <ValidationError
+          prefix='Message'
+          field='message'
+          errors={state.errors}
+        />
 
-        <button 
+        <button
           type='submit'
+          disabled={state.submitting}
         >ENVIAR</button>
 
       </form>

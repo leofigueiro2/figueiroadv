@@ -11,6 +11,10 @@
     height: 40px;
     padding: 0 0 0 10px;
     width: 100%;
+    & ::placeholder {
+      font-family: var(--libre);
+      font-size: 12px;
+    }
   }
   & textarea {
     background: var(--sys--light--tertiary-container);
@@ -22,11 +26,12 @@
   & button {
     background: linear-gradient(180deg, #DA717D 47.4%, #BA5865 100%);
     border: 1px solid #1D432B;
-    border-radius: 30px;
+    border-radius: 20px;
     color: var(--sys--light--on-primary);
     padding: 18px 30px;
     text-align: center;
-    width: 50%;
+    max-width: 100%;
+    width: 100%;
   }
   & select {
       background: var(--sys--light--tertiary-container);

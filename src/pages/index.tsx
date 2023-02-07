@@ -5,16 +5,20 @@ import Conteudo1 from 'components/Index/Conteudo1';
 import { ReactElement } from 'react';
 import Conteudo3 from 'components/Index/Conteudo3';
 import Conteudo4 from 'components/Index/Conteudo4';
+import Head from 'next/head';
 
 
 function Home() {
   return (
     <>
+      <Head>
+        <title> Início | Figueiró Advocacia</title>
+      </Head>
       <Carrossel />
       <Conteudo1 />
       <Conteudo2 />
-      <Conteudo3/>
-      <Conteudo4/>
+      <Conteudo3 />
+      <Conteudo4 />
     </>
   );
 }

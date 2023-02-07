@@ -1,7 +1,10 @@
 .section {
-  background-image: url('../../../public/bgs/about/Content2.webp');
+  background-image: url('../../public/bgs/about/Content2.webp');
   background-size: cover;
   color: var(--sys--light--on-primary);  
+  & a {
+    color: inherit;
+  }
 }
 
 .leftborder {

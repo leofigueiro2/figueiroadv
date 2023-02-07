@@ -1,4 +1,4 @@
-import styled from '../../src/styles/About/Header.module.scss';
+import styled from './Header.module.scss';
 import Pencil from '../../public/icons/About/pencil.svg';
 export default function Header() {
   return (

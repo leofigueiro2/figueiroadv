@@ -1,0 +1,14 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  box-shadow: 0 10px 21px -10px rgba(0,0,0, .50);
+  border-radius: 20px;
+  & span {
+    color: var(--ref--primary--primary50);
+    font-size: 17px;
+  }
+  & p {
+    font-size: 14px;
+  }
+}

@@ -1,3 +1,5 @@
+import Media from './Media';
+
 interface Post {
   id: number,
   title: {
@@ -12,7 +14,7 @@ interface Post {
     rendered: string
   }
   date: string,
-  fimg_url: string
+  featured_image_versions: Media
 }
 
 export default Post;

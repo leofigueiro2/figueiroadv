@@ -5,7 +5,7 @@ import CardsPrincipais from 'components/Blog/CardsPrincipais';
 import Content1 from 'components/Blog/Content1';
 import Header from 'components/Blog/Header';
 import Layout from 'components/Commons/layout';
-import { GetStaticPaths, GetStaticPathsContext, GetStaticProps } from 'next';
+import Head from 'next/head';
 
 import { ReactElement } from 'react';
 
@@ -29,10 +29,13 @@ export const getStaticProps = async () => {
 function Blog(props:Props) {
   return (
     <>
+      <Head>
+        <title> Contato | Figueiró Advocacia</title>
+      </Head>
       <Header/>
       <section className='container'>
         <Content1 posts={props.posts}/>
-        {/* <CardsPrincipais posts={props.posts}/> */}
+        <CardsPrincipais posts={props.posts}/>
       </section>
     </>
   );

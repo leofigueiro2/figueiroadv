@@ -8,6 +8,7 @@ export default function Document() {
         <meta name="keywords" content="advogados online, serviços jurídicos, direito, soluções jurídicas, avaliação gratuita"/>
         <meta name="robots" content="index,follow"/>
         <meta name="revisit-after" content="7 days"/>
+        <link rel="shortcut icon" href="/logos/favicon.svg"></link>
       </Head>
       <body>
         <Main />

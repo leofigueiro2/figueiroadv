@@ -1,3 +1,33 @@
+.sectionPost {
+  & img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  & .autor {
+    color: var(--ref--primary--primary40);
+    font-size: --headline--small;
+    font-weight: 500;
+    margin: 0;
+  }
+  & .detalhes {
+    color: var(--ref--tertiary--tertiary70);
+    font-size: 14px;
+  }
+}
+
+
 .postagem {
   
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  & ol {
+    margin-top: 15px;
+    margin-left: 23px;
+    list-style-type: decimal;
+    & li {
+      font-size: var(--headline--small);
+      font-weight: 500;
+    }
+  }
 }

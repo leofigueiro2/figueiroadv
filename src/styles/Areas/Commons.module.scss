@@ -13,9 +13,14 @@
 }
 
 .formulario {
+  box-sizing: border-box;
+  padding: 50px 10px 30px 10px;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  box-shadow: 0 10px 21px -10px rgba(0,0,0, .50);
+  border-radius: 20px;
+  height: 100%;
   & span {
     color: var(--ref--primary--primary50);
     font-size: 17px;

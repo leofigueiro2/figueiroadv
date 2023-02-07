@@ -1,8 +1,11 @@
 /* eslint-disable semi */
 interface Media {
-  id: number,
-  guid: {
-    rendered: string
+    versions: {
+      medium: string,
+      large: string,
+      thumbnail: string,
+      medium_large: string,
+    },
+    alt: string
   }
-}
 export default Media;

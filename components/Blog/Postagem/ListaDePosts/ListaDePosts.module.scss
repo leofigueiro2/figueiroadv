@@ -1,0 +1,22 @@
+.listaPosts{
+  color: var(--ref--tertiary--tertiary70);
+  background: linear-gradient(0deg, rgba(108, 90, 91, 0.05), rgba(108, 90, 91, 0.05)), #FFFBFF;
+  border-radius: 20px;
+    box-shadow: 0 10px 21px -10px rgba(0,0,0, .50);
+  & h4 {
+    color: var(--ref--tertiary--tertiary50);
+    font-size: 22px;
+    font-weight: 500;
+  }
+  & ul {  
+    font-size: 14px;
+    list-style: disc;
+    line-height: 20px;
+  }
+  & a {
+    color: inherit;
+    &:hover {
+      color: var(--ref--tertiary--tertiary50);
+    }
+  }
+}

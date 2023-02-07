@@ -4,11 +4,16 @@
   background: linear-gradient(0deg, rgba(108, 90, 91, 0.05), rgba(108, 90, 91, 0.05)), #FFFBFF;
   margin-left: auto;
   margin-right: auto;
+  &:hover {
+    box-shadow: 0 10px 21px -10px rgba(0,0,0, .50);
+  }
   & .img {
     width: 100%;
     max-width: 100%;
     height: auto;
     max-height: 450px;
+    object-fit: cover;
+    object-position: top;
     
   }
 

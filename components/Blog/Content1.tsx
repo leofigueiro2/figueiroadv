@@ -16,7 +16,8 @@ function Content1({posts}: Props) {
 
 
   useEffect(() => {
-    filterPost(posts, 5, setFilteredPost);
+    const filter = filterPost(posts, 16);
+    setFilteredPost(filter);
   },[]);
   
   
@@ -29,7 +30,7 @@ function Content1({posts}: Props) {
   const resumo = filteredPost?.excerpt.rendered;
   const data = formatDate(filteredPost.date);
   const tempo = calculateReadingTime(filteredPost.content.rendered);
-  const src = filteredPost.fimg_url[0];
+  const src = filteredPost.featured_image_versions.versions.large;
   return (
     <section className={`${styled.section} row align-items-center`}>
       <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12 p-0'>

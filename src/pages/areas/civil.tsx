@@ -50,7 +50,7 @@ function Civil() {
             </p>
           </div>
         </div>
-        <div className={styled.formulario}>
+        <div className={`${styled.formulario}`}>
           <div className='d-flex gap-2 align-items-center'>
             <Contact />
             <span>Converse com um advogado</span>

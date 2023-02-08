@@ -17,15 +17,9 @@ const nextConfig = {
       }
     ]
   },
-  webpack: (config, {dev, isServer}) => {
+  webpack: (config) => {
     // Configura o @svgr como um loader para imagens SVG usando o hook para o Webpack
-    if(!dev && !isServer) {
-      Object.assign(config.resolve.alias, {
-        react: 'preact/compat',
-        'react-dom/test-utils': 'preact/test-utils',
-        'react-dom': 'preact/compat'
-      });
-    }
+    
     config.module.rules.push({
       test: /\.svg$/,
       use: ['@svgr/webpack'],

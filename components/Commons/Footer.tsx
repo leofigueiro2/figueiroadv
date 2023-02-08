@@ -1,4 +1,4 @@
-import styled from '../../src/styles/Commons/Footer.module.scss';
+import styled from './Footer.module.scss';
 import LogoTexto from './Logo';
 import Whatsapp from '../../public/icons/WhatsApp.svg';
 import Instagram from '../../public/icons/Instagram.svg';
@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className={`${styled.footer} d-flex align-items-center justify-content-between flex-wrap flex-lg-nowrap gap-3`}>
       <ul className='container'>
-        <span>MENU</span>
+        <li className={styled.li__titulo}>MENU</li>
         <li><Link href="/">Início</Link></li>
         <li><Link href="/areas">Áreas de atuação</Link></li>
         <li><Link href="about">Quem somos</Link></li>
@@ -19,14 +19,14 @@ export default function Footer() {
       </ul>
 
       <ul className='align-self-start container'>
-        <span>ATUAÇÃO</span>
+        <li className={styled.li__titulo}>ATUAÇÃO</li>
         <li><Link href="/areas/trabalhista">Direito do trabalho</Link></li>
         <li><Link href="/areas/sucessoes">Sucessões</Link></li>
         <li><Link href="/areas/contratos">Contratos</Link></li>
         <li><Link href="/areas/civil">Responsabilidade Civil</Link></li>
       </ul>
       <ul className='align-self-start container'>
-        <span>CONTATOS</span>
+        <li className={styled.li__titulo}>CONTATOS</li>
         <li>
           <div>
             <Whatsapp/> 

@@ -2,7 +2,6 @@ import styled from '../../src/styles/Blog/Content1.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
 import formatDate from '@/Hooks/convertTime';
-import calculateReadingTime from '@/Hooks/tempoLeitura';
 import Props from '@/interfaces/Props';
 import Post from '@/interfaces/Post';
 import { useEffect, useState } from 'react';

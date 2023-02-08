@@ -1,6 +1,8 @@
 import { PropsWithChildren } from 'react';
 import Header from './Header';
-import Footer from './Footer';
+import dynamic from 'next/dynamic';
+
+const Footer = dynamic(() => import('./Footer'));
 
 export default function Layout({children}: PropsWithChildren){
   
@@ -8,7 +10,7 @@ export default function Layout({children}: PropsWithChildren){
     <>
       <Header/>
       <main> {children}</main> 
-      <Footer/> 
+      <Footer />
     </>
   );
 }

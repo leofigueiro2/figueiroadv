@@ -1,11 +1,5 @@
 import Form from 'components/Commons/Form';
-import Layout from 'components/Commons/layout';
 import Head from 'next/head';
-import { ReactElement } from 'react';
-
-
-
-
 
 function Contato() {
   return (
@@ -26,14 +20,6 @@ function Contato() {
     </>
   );
 }
-
-Contato.getLayout = function getLayout(page: ReactElement) {
-  return (
-    <Layout>
-      {page}
-    </Layout>
-  );
-};
 
 
 export default Contato;

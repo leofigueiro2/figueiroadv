@@ -1,6 +1,4 @@
-import Layout from 'components/Commons/layout';
 import Contact from '../../../public/icons/Areas/contact.svg';
-import { ReactElement } from 'react';
 import styled from '../../styles/Areas/Commons.module.scss';
 import Form from 'components/Commons/Form';
 import Head from 'next/head';
@@ -216,15 +214,6 @@ function Trabalhista() {
     </>
   );
 }
-
-
-Trabalhista.getLayout = function getLayout(page: ReactElement) {
-  return (
-    <Layout>
-      {page}
-    </Layout>
-  );
-};
 
 
 export default Trabalhista;

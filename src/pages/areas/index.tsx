@@ -1,5 +1,3 @@
-import Layout from 'components/Commons/layout';
-import { ReactElement } from 'react';
 import Image from 'next/image';
 import Trabalho from '../../../public/images/index/Conteudo3/trabalho.webp';
 import Sucessao from '../../../public/images/index/Conteudo3/sucessao.webp';
@@ -113,13 +111,6 @@ function Home() {
 }
 
 
-Home.getLayout = function getLayout(page: ReactElement) {
-  return (
-    <Layout>
-      {page}
-    </Layout>
-  );
-};
 
 
 export default Home;

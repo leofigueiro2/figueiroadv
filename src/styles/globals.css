@@ -1,5 +1,3 @@
-@import url('bootstrap/dist/css/bootstrap.min.css');
-
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -45,13 +43,15 @@ table {
     border-spacing: 0;
 }
 
-
-
-
 :root {
   /* Color styles */
 --white: #FFFFFF;
 --black: #000000;
+
+
+--charm: 'Charm', cursive;;
+--libre: 'Libre Franklin', sans-serif;;
+
 
 --sys--light--primary: #6C5A5B;
 --sys--light--on-primary: #FFFFFF;
@@ -84,38 +84,6 @@ table {
 --sys--light--outline-variant: #CBC5C5;
 --sys--light--scrim: #000000;
 --sys--light--surface-tint-color: #6C5A5B;
-
---sys--dark--primary: #D8C1C2;
---sys--dark--on-primary: #3B2D2E;
---sys--dark--primary-container: #534344;
---sys--dark--on-primary-container: #F5DDDE;
---sys--dark--secondary: #CEC4C4;
---sys--dark--on-secondary: #342F2F;
---sys--dark--secondary-container: #4B4545;
---sys--dark--on-secondary-container: #EAE0E0;
---sys--dark--tertiary: #CEC5BD;
---sys--dark--on-tertiary: #352F2A;
---sys--dark--tertiary-container: #4C4640;
---sys--dark--on-tertiary-container: #EBE1D8;
---sys--dark--error: #FFB4AB;
---sys--dark--on-error: #690005;
---sys--dark--error-container: #93000A;
---sys--dark--on-error-container: #FFB4AB;
---sys--dark--outline: #958F8F;
---sys--dark--background: #1D1B1B;
---sys--dark--on-background: #E6E1E1;
---sys--dark--surface: #1D1B1B;
---sys--dark--on-surface: #E6E1E1;
---sys--dark--surface-variant: #494646;
---sys--dark--on-surface-variant: #CBC5C5;
---sys--dark--inverse-surface: #E6E1E1;
---sys--dark--inverse-on-surface: #323030;
---sys--dark--inverse-primary: #6C5A5B;
---sys--dark--shadow: #000000;
---sys--dark--surface-tint: #D8C1C2;
---sys--dark--outline-variant: #494646;
---sys--dark--scrim: #000000;
---sys--dark--surface-tint-color: #D8C1C2;
 
 --ref--primary--primary0: #000000;
 --ref--primary--primary10: #40000F;
@@ -172,24 +140,7 @@ table {
 --ref--tertiary--tertiary25: #503610;
 --ref--tertiary--tertiary35: #6A4D25;
 --ref--tertiary--tertiary98: #FFF8F4;
---ref--error--error0: #000000;
---ref--error--error10: #410002;
---ref--error--error20: #690005;
---ref--error--error30: #93000A;
---ref--error--error40: #BA1A1A;
---ref--error--error50: #DE3730;
---ref--error--error60: #FF5449;
---ref--error--error70: #FF897D;
---ref--error--error80: #FFB4AB;
---ref--error--error90: #FFDAD6;
---ref--error--error95: #FFEDEA;
---ref--error--error99: #FFFBFF;
---ref--error--error100: #FFFFFF;
---ref--error--error15: #540003;
---ref--error--error5: #2D0001;
---ref--error--error25: #7E0007;
---ref--error--error35: #A80710;
---ref--error--error98: #FFF8F7;
+
 --ref--neutral--neutral0: #000000;
 --ref--neutral--neutral10: #201A1A;
 --ref--neutral--neutral20: #362F2F;
@@ -232,11 +183,6 @@ table {
 --surfaces--light--surface3: #FFFBFF;
 --surfaces--light--surface4: #FFFBFF;
 --surfaces--light--surface5: #FFFBFF;
---surfaces--dark--surface1: #1D1B1B;
---surfaces--dark--surface2: #1D1B1B;
---surfaces--dark--surface3: #1D1B1B;
---surfaces--dark--surface4: #1D1B1B;
---surfaces--dark--surface5: #1D1B1B;
 
 /* Text-size styles */
 --display--large: 57px;

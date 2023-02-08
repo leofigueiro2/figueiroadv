@@ -22,9 +22,9 @@ export default function Conteudo3() {
         >
           <Image className='img-fluid' src={Trabalho} alt="" />
           <div className={`${styled.card} mb-3 p-3`}>
-            <h4 className={styled.card__titulo}>
+            <h3 className={styled.card__titulo}>
               Direito do trabalho
-            </h4>
+            </h3>
             <span/>
           </div>
         </div>
@@ -34,9 +34,9 @@ export default function Conteudo3() {
         >
           <Image className='img-fluid' src={Sucessao} alt="" />
           <div className={`${styled.card} mb-3 p-3`}>
-            <h4 className={styled.card__titulo}>
+            <h3 className={styled.card__titulo}>
               Sucessões
-            </h4>
+            </h3>
             <span/>
           </div>
         </div>
@@ -46,9 +46,9 @@ export default function Conteudo3() {
         >
           <Image className='img-fluid' src={Contratos} alt="" />
           <div className={`${styled.card} mb-3 p-3`}>
-            <h4 className={styled.card__titulo}>
+            <h3 className={styled.card__titulo}>
               Contratos
-            </h4>
+            </h3>
             <span/>
           </div>
         </div>
@@ -58,9 +58,9 @@ export default function Conteudo3() {
         >
           <Image className='img-fluid' src={RespCivil} alt="" />
           <div className={`${styled.card} mb-3 p-3`}>
-            <h4 className={styled.card__titulo}>
+            <h3 className={styled.card__titulo}>
               Responsabilidade Civil
-            </h4>
+            </h3>
             <span/>
           </div>
         </div>

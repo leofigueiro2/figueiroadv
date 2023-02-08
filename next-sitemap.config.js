@@ -1,10 +1,10 @@
 module.exports = {
-  siteUrl: 'figueiroadv-kq7b.vercel.app',
+  siteUrl: 'figueiroadvocacia.com.br',
   generateRobotsTxt: true, // opcional
   priority: null,
   changefreq: null,
   //exclude: ['/server-sitemap.xml', '/post/*'],
   robotsTxtOptions: {
-    additionalSitemaps: ['https://figueiroadv-kq7b.vercel.app/server-sitemap.xml'],
+    additionalSitemaps: ['https://figueiroadvocacia/server-sitemap.xml'],
   },
 };

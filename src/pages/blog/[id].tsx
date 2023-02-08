@@ -41,7 +41,10 @@ export const getStaticProps = async (context: Context) => {
     return {
       props: {
         post,
-        posts
+        posts: posts.map((post) => ({
+          id: post.id,
+          title: post.title
+        }))
       }
     };
   } catch (error) {

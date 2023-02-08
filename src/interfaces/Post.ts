@@ -14,7 +14,8 @@ interface Post {
     rendered: string
   }
   date: string,
-  featured_image_versions: Media
+  featured_image_versions: Media,
+  tempo: number
 }
 
 export default Post;

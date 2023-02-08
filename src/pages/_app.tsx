@@ -20,6 +20,7 @@ type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout
 }
 
+
 export default function App({ Component, pageProps }: AppPropsWithLayout) {
   useEffect(() => {
     require('bootstrap/dist/js/bootstrap.bundle.min.js');

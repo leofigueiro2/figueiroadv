@@ -4,7 +4,6 @@ import Card from './Card';
 import filterPost from '@/Hooks/filterPostById';
 import Loading from 'components/Commons/Loading';
 import formatDate from '@/Hooks/convertTime';
-import calculateReadingTime from '@/Hooks/tempoLeitura';
 
 const CardsPrincipais = ({ posts }: Props) => {
   const [post1, post2] = [filterPost(posts, 13), filterPost(posts, 16)];
@@ -13,8 +12,8 @@ const CardsPrincipais = ({ posts }: Props) => {
     return <Loading />;
   }
 
-  const [data1, tempo1] = [formatDate(post1.date), calculateReadingTime(post1.content.rendered)];
-  const [data2, tempo2] = [formatDate(post2.date), calculateReadingTime(post2.content.rendered)];
+  const data1 = formatDate(post1.date);
+  const data2 = formatDate(post2.date);
   return (
     <section className={`${styled.section} row d-flex flex-wrap flex-lg-nowrap align-items-center py-5`}>
       <Card
@@ -24,7 +23,7 @@ const CardsPrincipais = ({ posts }: Props) => {
         alt={post1.featured_image_versions.alt}
         autor={'Figueiró Advocacia'}
         data={data1}
-        leitura={tempo1.toString()}
+        leitura={post1.tempo.toString()}
       />
       <Card
         titulo={post2.title.rendered}
@@ -33,7 +32,7 @@ const CardsPrincipais = ({ posts }: Props) => {
         alt={post2.featured_image_versions.alt}
         autor={'Figueiró Advocacia'}
         data={data2}
-        leitura={tempo2.toString()}
+        leitura={post2.tempo.toString()}
       />
     </section >
   );

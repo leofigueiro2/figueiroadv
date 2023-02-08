@@ -29,7 +29,6 @@ function Content1({posts}: Props) {
   const title = filteredPost?.title.rendered;
   const resumo = filteredPost?.excerpt.rendered;
   const data = formatDate(filteredPost.date);
-  const tempo = calculateReadingTime(filteredPost.content.rendered);
   const src = filteredPost.featured_image_versions.versions.large;
   return (
     <section className={`${styled.section} row align-items-center`}>
@@ -46,7 +45,7 @@ function Content1({posts}: Props) {
           <div className='d-flex flex-column gap-3' >
             <div className={styled.blog__texto} dangerouslySetInnerHTML={{ __html: resumo }}></div>
             <span className={styled.blog__autor}>Por Figueiró Advocacia</span>
-            <span className={styled.blog__texto}> {data} - {tempo} min de leitura</span>
+            <span className={styled.blog__texto}> {data} - {filteredPost.tempo} min de leitura</span>
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import calculateReadingTime from '@/Hooks/tempoLeitura';
 import http from '@/http';
 import Post from '@/interfaces/Post';
 import Props from '@/interfaces/Props';
@@ -18,7 +19,15 @@ export const getStaticProps = async () => {
     
     return {
       props: {
-        posts,
+        posts: posts.map((post) => ({
+          id: post.id,
+          title: post.title,
+          date: post.date,
+          excerpt: post.excerpt,
+          featured_image_versions: post.featured_image_versions,
+          tempo: calculateReadingTime(post.content.rendered),
+
+        })),
       }
     };
   } catch (error) {

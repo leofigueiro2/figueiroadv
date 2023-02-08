@@ -18,7 +18,7 @@ function Content1({posts}: Props) {
   useEffect(() => {
     const filter = filterPost(posts, 16);
     setFilteredPost(filter);
-  },[]);
+  },[posts]);
   
   
   if(!filteredPost) {

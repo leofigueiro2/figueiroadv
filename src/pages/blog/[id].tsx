@@ -23,7 +23,13 @@ export const getStaticPaths = async () => {
   };
 };
 
-export const getStaticProps = async (context: any) => {
+interface Context {
+  params: {
+    id: string
+  }
+}
+
+export const getStaticProps = async (context: Context) => {
   try {
     const id = context.params.id;
     const res = await http.get<Post>(`/posts/${id}`);

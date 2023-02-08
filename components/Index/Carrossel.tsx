@@ -3,9 +3,14 @@ import ImageOne from '../../public/images/carrossel/1.webp';
 import ImageTwo from '../../public/images/carrossel/2.webp';
 import ImageThree from '../../public/images/carrossel/3.webp';
 import styled from '../../src/styles/Index/Carrossel.module.scss';
+import { useEffect } from 'react';
+
 
 
 export default function Carrossel() {
+  useEffect(() => {
+    require('bootstrap/js/dist/carousel');
+  },[]);
   return (
     <section id="carouselExampleCaptions" data-bs-ride="carousel" className={`${styled.section} carousel slide`}>
 

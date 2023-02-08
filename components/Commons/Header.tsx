@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import styled from '../../src/styles/Commons/Header.module.scss';
+import styled from './Header.module.scss';
 import Menu from '../../public/icons/Commons/menu.svg';
 import OffCanvas from './OffCanvas';
 import Link from 'next/link';
@@ -8,8 +8,11 @@ import { useOnHoverOutside } from '@/Hooks/useOnHoverOutside';
 import Logo from '../../public/logos/logo_1.svg';
 
 
-
 export default function Header() {
+  useEffect(() => {
+    require('bootstrap/js/dist/offcanvas');
+  },[]);
+
   const router = useRouter();
   const dropdownRef = useRef<HTMLLIElement | null>(null); // Create a reference for dropdown container
   const [isMenuDropDownOpen, setMenuDropDownOpen] = useState(false);

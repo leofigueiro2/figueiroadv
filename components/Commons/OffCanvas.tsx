@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import styled from '../../src/styles/Commons/OffCanvas.module.scss';
+import { useEffect } from 'react';
 
 export default function OffCanvas() {
-
+  useEffect(() => {
+    require('bootstrap/js/dist/collapse');
+  },[]);
   return (
     <section className={`${styled.section} offcanvas mobile-toggler offcanvas-end w-75`} tabIndex={-1} id="menuLateral" aria-labelledby="menuLateralLabel" >
       <div className="offcanvas-header">

@@ -79,9 +79,9 @@ export default function Header() {
           </ul>
         </nav>
         <div className='d-lg-none d-md-block'>
-          <a data-bs-toggle="offcanvas" href="#menuLateral" role='button' aria-controls="menuLateral" aria-label='Botão de menu'>
+          <button data-bs-toggle="offcanvas" type='button' data-bs-target="#menuLateral" aria-controls="menuLateral" aria-label='Botão de menu'>
             <Menu />
-          </a>
+          </button>
         </div>
         <OffCanvas />
 

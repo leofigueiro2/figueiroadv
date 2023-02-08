@@ -1,5 +1,3 @@
-
-
 .header {
   align-items: center;
   background-color: var(--ref--secondary--secondary40);
@@ -19,6 +17,10 @@
         }
       }
     }
+  }
+  & button {
+    background: none;
+    border: none;
   }
 }
 

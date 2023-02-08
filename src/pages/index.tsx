@@ -3,7 +3,7 @@ import Layout from 'components/Commons/layout';
 //import Conteudo2 from 'components/Index/Conteudo2';
 //import Conteudo1 from 'components/Index/Conteudo1';
 import { ReactElement, Suspense, lazy, useEffect, useState } from 'react';
-//import Conteudo4 from 'components/Index/Conteudo4';
+import Conteudo4 from 'components/Index/Conteudo4';
 import Head from 'next/head';
 import Loading from 'components/Commons/Loading';
 
@@ -11,7 +11,6 @@ import Loading from 'components/Commons/Loading';
 const Conteudo1 = lazy(() => import('components/Index/Conteudo1'));
 const Conteudo2 = lazy(() => import('components/Index/Conteudo2'));
 const Conteudo3 = lazy(() => import('components/Index/Conteudo3'));
-const Conteudo4 = lazy(() => import('components/Index/Conteudo4'));
 const Carrossel = lazy(() => import('components/Index/Carrossel'));
 
 function Home() {

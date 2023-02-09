@@ -13,6 +13,7 @@ function Sucessoes() {
         <meta name="keywords" content="inventário, bens, herança, testamento, inventariante"/>
         <meta name="robots" content="index,follow"/>
         <meta name="revisit-after" content="7 days"/>
+        <title> Inventários | Figueiró Advocacia</title>
       </Head>
       <section className={styled.section} style={{ backgroundImage: 'url(\'/bgs/areas/sucessoes.webp\')' }}>
         <div className='d-flex flex-column container gap-3 py-5'>

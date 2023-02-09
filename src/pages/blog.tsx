@@ -36,7 +36,7 @@ function Blog(props:Props) {
   return (
     <>
       <Head>
-        <title> Contato | Figueiró Advocacia</title>
+        <title> Artigos | Figueiró Advocacia</title>
       </Head>
       <Header/>
       <section className='container'>

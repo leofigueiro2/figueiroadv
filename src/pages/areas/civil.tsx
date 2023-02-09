@@ -13,6 +13,7 @@ function Civil() {
         <meta name="keywords" content="responsabilidade civil, indenização, danos, prescrição, direito contratual" />
         <meta name="robots" content="index,follow" />
         <meta name="revisit-after" content="7 days" />
+        <title> Responsabilidade Civil | Figueiró Advocacia</title>
       </Head>
       <section className={styled.section} style={{ backgroundImage: 'url(\'/bgs/areas/resp_civil.webp\')' }}>
         <div className='d-flex flex-column container gap-3 py-5'>

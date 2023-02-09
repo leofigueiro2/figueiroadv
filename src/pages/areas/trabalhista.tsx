@@ -13,6 +13,7 @@ function Trabalhista() {
         <meta name="keywords" content="direito trabalhista, trabalhadores, salário, jornada de trabalho, demissão" />
         <meta name="robots" content="index,follow" />
         <meta name="revisit-after" content="7 days" />
+        <title> Trabalhista | Figueiró Advocacia</title>
       </Head>
 
       <section className={styled.section} style={{ backgroundImage: 'url(\'/bgs/areas/work.webp\')' }}>

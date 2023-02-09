@@ -5,8 +5,9 @@ import Layout from 'components/Commons/layout';
 //import { NextPage } from 'next';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import { useEffect } from 'react';
 //import { ReactElement, ReactNode, useEffect } from 'react';
-
+import TagManager from 'react-gtm-module';
 // const charm = Charm({
 //   subsets: ['latin'],
 //   weight: '400'
@@ -16,7 +17,13 @@ import Head from 'next/head';
 
 
 export default function App({ Component, pageProps }: AppProps) {
-  
+  useEffect(() => {
+    const tagManagerArgs = {
+      gtmId: 'GTM-TTSSRNW'
+    };
+
+    TagManager.initialize(tagManagerArgs);
+  }, []);
   return (
     <>
       {/* <style jsx global>{`

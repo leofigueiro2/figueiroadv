@@ -1,12 +1,10 @@
-import { useState } from 'react';
+import { FormEvent, useState } from 'react';
 import InputMask from 'react-input-mask';
 import styled from '../../src/styles/Commons/Form.module.scss';
-import { useForm, ValidationError } from '@formspree/react';
+import axios from 'axios';
 
 
 export default function Form() {
-
-  const [state, handleSubmit] = useForm('xyyaekgd');
 
   const [nome, setNome] = useState('');
   const [sobrenome, setSobrenome] = useState('');
@@ -14,16 +12,45 @@ export default function Form() {
   const [email, setEmail] = useState('');
   const [msg, setMsg] = useState('');
 
-  if(state.succeeded) {
-    return <p>Obrigado por entrar em contato. Em breve retornaremos</p>;
-  }
+  const data = {
+    service_id: 'service_m5lo0qg',
+    template_id: 'template_ojule2q',
+    user_id: 'EBLerVlJQhslGeQ-P',
+    template_params: {
+      'name': nome,
+      'last_name': sobrenome,
+      'tel': tel,
+      'email': email,
+      'msg': msg
+    }
+  };
+
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    axios.post('https://api.emailjs.com/api/v1.0/email/send', data)
+      .then(() => {
+        alert('Seu e-mail foi enviado! Em breve retornaremos.');
+      })
+      .catch((err) => {
+        console.log(JSON.stringify(err));
+      })
+      .then(() => {
+        setNome('');
+        setEmail('');
+        setMsg('');
+        setSobrenome('');
+        setTel('');
+      });
+  };
 
   return (
     <section className={`${styled.section__form} d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center px-1`}>
       <form
-        className='d-flex flex-column gap-3 align-items-center'
-        onSubmit={handleSubmit}
-      >
+        method='POST'
+        className='d-flex flex-column gap-3 align-items-center' 
+        onSubmit={(event) => {
+          sendEmail(event);
+        }} >
         <div className='d-flex gap-3'>
           <div className='d-flex flex-column gap-1'>
             <label htmlFor="name"> Nome</label>
@@ -38,11 +65,7 @@ export default function Form() {
               required
 
             />
-            <ValidationError
-              prefix='name'
-              field='name'
-              errors={state.errors}
-            />
+
           </div>
           <div className='d-flex flex-column gap-1'>
             <label htmlFor="lastName">Sobrenome</label>
@@ -93,15 +116,11 @@ export default function Form() {
           />
         </div>
 
-        <ValidationError
-          prefix='Message'
-          field='message'
-          errors={state.errors}
-        />
+
 
         <button
           type='submit'
-          disabled={state.submitting}
+          
         >ENVIAR</button>
 
       </form>

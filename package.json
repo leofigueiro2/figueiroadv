@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "postbuild": "next-sitemap",
-    "@formspree/react": "^2.4.1",
     "analyze": "ANALYZE=true next build"
   },
   "dependencies": {

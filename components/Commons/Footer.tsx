@@ -4,6 +4,7 @@ import Whatsapp from '../../public/icons/WhatsApp.svg';
 import Instagram from '../../public/icons/Instagram.svg';
 import Facebook from '../../public/icons/Facebook.svg';
 import Link from 'next/link';
+import WhatsButton from './WhatsButton/WhatsButton';
 
 
 export default function Footer() {
@@ -50,7 +51,7 @@ export default function Footer() {
     
 
       <LogoTexto />
-
+      <WhatsButton/>
 
     </footer>
   );

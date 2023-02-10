@@ -6,14 +6,16 @@ import Loading from 'components/Commons/Loading';
 import formatDate from '@/Hooks/convertTime';
 
 const CardsPrincipais = ({ posts }: Props) => {
-  const [post1, post2] = [filterPost(posts, 13), filterPost(posts, 16)];
+  const [post1, post2, post3] = [filterPost(posts, 13), filterPost(posts, 16), filterPost(posts, 21)];
 
-  if (!post1 || !post2) {
+  if (!post1 || !post2 || !post3) {
     return <Loading />;
   }
 
   const data1 = formatDate(post1.date);
   const data2 = formatDate(post2.date);
+  const data3 = formatDate(post3.date);
+
   return (
     <section className={`${styled.section} row d-flex flex-wrap flex-lg-nowrap align-items-center py-5`}>
       <Card
@@ -33,6 +35,15 @@ const CardsPrincipais = ({ posts }: Props) => {
         autor={'Figueiró Advocacia'}
         data={data2}
         leitura={post2.tempo.toString()}
+      />
+      <Card
+        titulo={post3.title.rendered}
+        link={`/blog/${post3.id}`}
+        src={post3.featured_image_versions.versions.thumbnail}
+        alt={post3.featured_image_versions.alt}
+        autor={'Figueiró Advocacia'}
+        data={data3}
+        leitura={post3.tempo.toString()}
       />
     </section >
   );

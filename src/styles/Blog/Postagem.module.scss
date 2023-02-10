@@ -21,6 +21,10 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  & ul {
+    list-style: disc;
+    margin-left: 15px;
+  }
   & ol {
     margin-top: 15px;
     margin-left: 23px;

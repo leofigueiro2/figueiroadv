@@ -34,7 +34,7 @@ function Content1({posts}: Props) {
       <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12 p-0'>
         <Link href={`blog/${id}`}>
           <figure>
-            <Image className={styled.img} src={src} alt='Sócrates' width={1000} height={1000} />
+            <Image className={styled.img} src={src} alt={filteredPost.featured_image_versions.alt} width={1000} height={1000} />
           </figure>
         </Link>
       </div>

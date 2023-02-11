@@ -45,7 +45,8 @@ export const getStaticProps = async (context: Context) => {
           id: post.id,
           title: post.title
         }))
-      }
+      },
+      revalidate: 3600,
     };
   } catch (error) {
     console.error('Erro na requisição dos Posts', error);

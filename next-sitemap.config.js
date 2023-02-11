@@ -1,9 +1,9 @@
 module.exports = {
-  siteUrl: 'figueiroadvocacia.com.br',
+  siteUrl: 'https://figueiroadvocacia.com.br',
   generateRobotsTxt: true, // opcional
   priority: null,
   changefreq: null,
-  //exclude: ['/server-sitemap.xml', '/post/*'],
+  exclude: ['/server-sitemap.xml', '/blog/*'],
   robotsTxtOptions: {
     additionalSitemaps: ['https://figueiroadvocacia/server-sitemap.xml'],
   },

@@ -18,7 +18,7 @@ function Home() {
         <title> Especialidades | Figueiró Advocacia</title>
       </Head>
       <section className="bgSec container-fluid py-4 d-flex flex-column align-items-center justify-content-center gap-4">
-        <h2 className='section__title'>Áreas de atuação</h2>
+        <h1 className='section__title'>Áreas de atuação</h1>
 
         <div className="d-flex justify-content-center gap-2 flex-wrap flex-lg-nowrap">
 
@@ -28,9 +28,9 @@ function Home() {
           >
             <Image className='img-fluid' src={Trabalho} alt="" />
             <div className={`${styled.card} mb-3 p-3 `}>
-              <h4 className={styled.card__titulo}>
+              <h2 className={styled.card__titulo}>
                 Direito do trabalho
-              </h4>
+              </h2>
               <span />
             </div>
             <div className={styled.hovertext}>
@@ -48,9 +48,9 @@ function Home() {
           >
             <Image className='img-fluid' src={Sucessao} alt="" />
             <div className={`${styled.card} mb-3 p-3`}>
-              <h4 className={styled.card__titulo}>
+              <h2 className={styled.card__titulo}>
                 Sucessões
-              </h4>
+              </h2>
               <span />
             </div>
             <div className={styled.hovertext}>
@@ -70,9 +70,9 @@ function Home() {
           >
             <Image className='img-fluid' src={Contratos} alt="" />
             <div className={`${styled.card} mb-3 p-3`}>
-              <h4 className={styled.card__titulo}>
+              <h2 className={styled.card__titulo}>
                 Contratos
-              </h4>
+              </h2>
               <span />
             </div>
             <div className={styled.hovertext}>
@@ -92,9 +92,9 @@ function Home() {
           >
             <Image className='img-fluid' src={RespCivil} alt="" />
             <div className={`${styled.card} mb-3 p-3`}>
-              <h4 className={styled.card__titulo}>
+              <h2 className={styled.card__titulo}>
                 Responsabilidade Civil
-              </h4>
+              </h2>
               <span />
             </div>
             <div className={styled.hovertext}>

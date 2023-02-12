@@ -25,9 +25,9 @@ function Sucessoes() {
 
       <section className='container d-flex py-5 flex-wrap flex-lg-nowrap gap-4'>
         <div className='container d-flex flex-column gap-4'>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Sucessão é o mesmo que inventário?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
@@ -40,9 +40,9 @@ function Sucessoes() {
               a partilha de bens, nomeação e remoção de inventariante, o planejamento sucessório, entre outros.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
             O que é inventário?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
@@ -53,9 +53,9 @@ function Sucessoes() {
               Para realização de inventário, seja judicial ou em cartório, é obrigatória a presença de advogado.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Passos para realização de um inventário
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
@@ -81,9 +81,9 @@ function Sucessoes() {
               e da disponibilidade da documentação.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
           É preciso pagar impostos sobre os bens do inventário?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>

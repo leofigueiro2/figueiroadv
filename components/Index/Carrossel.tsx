@@ -19,7 +19,7 @@ export default function Carrossel() {
           <Image src={ImageOne} alt={'Imagem de pessoas escrevendo em uma mesa, na frente de um computador'}/>
           
           <div className={`${styled.carrossel} carousel-caption d-none d-md-block`}>
-            <h5 className={styled.h5}>Inovador</h5>
+            <h1 className={styled.h5}>Inovador</h1>
             <p>Mais facilidade para esclarecer suas dúvidas e resolver seus problemas</p>
           </div>
         </div>

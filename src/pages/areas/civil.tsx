@@ -25,9 +25,9 @@ function Civil() {
 
       <section className='container d-flex py-5 flex-wrap flex-lg-nowrap gap-4'>
         <div className='container d-flex flex-column gap-4'>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Quando entrar na justiça quando alguém nos causa danos?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
@@ -38,9 +38,9 @@ function Civil() {
               Essa responsabilidade civil busca reparar os danos sofridos pela vítima, podendo esta receber uma indenização por danos materiais ou morais, a depender do caso.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Qual é a diferença entre responsabilidade civil contratual e extracontratual?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>

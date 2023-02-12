@@ -23,7 +23,7 @@ export default function HeaderPost({posts}: PropsPost) {
               <em><Link href={'/blog'} replace>Artigos</Link></em>
             </div>
             <div className={styled.line}></div>
-            <h3 className={styled.title}>{posts.title.rendered} </h3>
+            <h1 className={styled.title}>{posts.title.rendered} </h1>
           </div>
         </div>
       </div>

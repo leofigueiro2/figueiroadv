@@ -43,7 +43,7 @@ export default function Footer() {
         <li>
           <div>
             <Instagram/> 
-            <p>/figueiroadvocacia</p>
+            <p><a href='https://www.instagram.com/leonardofigueiro/'>/figueiroadvocacia</a></p>
           </div>
         </li>
 

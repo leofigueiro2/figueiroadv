@@ -19,7 +19,9 @@ export default function Conteudo2() {
           A Figueiró advocacia possui mais 12 anos atuando de forma totalmente
           digital e descomplicada. Tanto as orientações fornecidas em um primeiro
           momento, quanto o processo, são realizados de forma sincronizada com o
-          cliente, dispensando totalmente o comparecimento no escritório.
+          cliente, dispensando totalmente o comparecimento no escritório. Basta entrar
+          em contato e responderemos o mais rápido possível, encaminhando o cliente
+          para a melhor alternativa para resolução de seu problema.
         </p>
 
         <ul className='d-flex flex-column gap-1'>

@@ -11,7 +11,7 @@ export default function Header() {
           <div className='d-flex flex-column justify-content-center gap-3'>
             <div className='d-flex align-items-end gap-1'><Pencil/> <span className={styled.subtitlecard}>inicio /</span><em>Artigos</em></div>
             <div className={styled.line}></div>
-            <h3 className={styled.title}>Artigos jurídicos e informativos</h3>
+            <h1 className={styled.title}>Artigos jurídicos e informativos</h1>
           </div>
         </div>
         <div className='container'>

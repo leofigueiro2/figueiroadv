@@ -26,9 +26,9 @@ function Trabalhista() {
 
       <section className='container d-flex py-5 flex-wrap flex-lg-nowrap gap-4'>
         <div className='container d-flex flex-column gap-4'>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Somos um escritório de advocacia especializado em Direito Trabalhista
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
@@ -48,9 +48,9 @@ function Trabalhista() {
             </p>
           </div>
 
-          <h3 className="section__title">
+          <h2 className="section__title">
             Responsabilidade civil por acidente de trabalho
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
             <p className='section__texto'>
               O Brasil está entre os países que mais matam trabalhadores por acidente de trabalho. Todos os anos milhares de trabalhadores
@@ -69,9 +69,9 @@ function Trabalhista() {
               como a responsabilidade civil, a fim de resguardar o cliente dos nuances de cada uma das áreas.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Demissão por justa causa
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
             <p className='section__texto'>
               A demissão por jusga causa é o meio pelo qual o empregador demite o empregado por alguma falta grave por ele cometida. Tal tipo de demissão
@@ -127,9 +127,9 @@ function Trabalhista() {
               </li>
             </ul>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Adicional de periculosidade e insalubridade
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
             <p className='section__texto'>
               A saúde do trabalhador é preocupação primária das legislações trabalhistas, sobretudo da Constituição Federal,
@@ -145,9 +145,9 @@ function Trabalhista() {
               a algum perigo à sua integridade física, o adicional é de periculosidade.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Rescisão indireta
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
             <p className='section__texto'>
               A rescisão indireta é a justa causa do empregado. Ou seja: ocorre quando o empregador não cumpre com suas obrigações, ou impõe esforços que vão além
@@ -162,9 +162,9 @@ function Trabalhista() {
               a algum perigo à sua integridade física, o adicional é de periculosidade.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Hora Extra
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
             <p className='section__texto'>
               O direito a hora extra surge quando o empregado trabalha além da sua jornada normal. Quando isto ocorre, tem direito ao recebimento de sua remuneração normal
@@ -175,9 +175,9 @@ function Trabalhista() {
               horário intrajornada, ou hora da refeição.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Reconhecimento de vínculo
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
             <p className='section__texto'>
               No Brasil, o reconhecimento de vínculo talvez seja o tipo de ação mais corriqueiro na justiça do trabalho. Apesar de ter uma legislação trabalhista extremamente

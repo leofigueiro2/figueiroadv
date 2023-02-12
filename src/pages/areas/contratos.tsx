@@ -25,9 +25,9 @@ function Contratos() {
 
       <section className='container d-flex py-5 flex-wrap flex-lg-nowrap gap-4'>
         <div className='container d-flex flex-column gap-4'>
-          <h3 className="section__title">
+          <h2 className="section__title">
             Mas afinal, o que é um contrato?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
@@ -40,9 +40,9 @@ function Contratos() {
             da regulamentação dos acordos entre as partes, estabelecendo regras para a sua formação, validade, execução e extinção.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
           Como redigir um contrato?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
@@ -59,9 +59,9 @@ function Contratos() {
             negociação e evitar dúvidas futuras na interpretação do documento. EM HIPÓTESE ALGUMA utilize modelos prontos encontrados na internet!
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
           É necessário registrar um contrato?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
@@ -69,9 +69,9 @@ function Contratos() {
             Alguns contratos, como os imobiliários, necessitam de registrap para terem validade.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
           O que acontece se uma das partes não cumprir o contrato?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
@@ -79,9 +79,9 @@ function Contratos() {
             do contrato.
             </p>
           </div>
-          <h3 className="section__title">
+          <h2 className="section__title">
           O que é cláusula abusiva em um contrato?
-          </h3>
+          </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>

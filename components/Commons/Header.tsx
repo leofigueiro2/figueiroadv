@@ -41,11 +41,11 @@ export default function Header() {
           <Logo width ={small ? '40px' : '100px'}/>
           
           
-          <h1>figueiró</h1>
+          <h2>figueiró</h2>
         </div>
         <nav className='d-none d-lg-block'>
           <ul className='gap-4 d-flex navb-items'>
-            <li><Link className={router.pathname === '/' ? styled.link__ativo : ''} href="/">Início</Link></li>
+            <li><Link className={router.pathname === '/' ? styled.link__ativo : ''} href="/">Inicio</Link></li>
             <li style={{ position: 'relative' }} ref={dropdownRef}><Link
               className={router.pathname === '/areas' ? styled.link__ativo : ''}
               href="/areas"

@@ -26,12 +26,6 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
   return (
     <>
-      {/* <style jsx global>{`
-        :root {
-          --charm: ${charm.style.fontFamily};
-          --libre: ${libre.style.fontFamily};
-        }
-      `}</style> */}
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -40,7 +34,5 @@ export default function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </Layout>
     </>
-
-
   );
 }

@@ -26,7 +26,8 @@ export const getStaticProps = async () => {
           tempo: calculateReadingTime(post.content.rendered),
 
         })),
-      }
+      },
+      revalidate: 3600,
     };
   } catch (error) {
     console.error('Erro na requisição dos Posts', error);

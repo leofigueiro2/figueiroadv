@@ -16,7 +16,7 @@ export default function Footer() {
         <li><Link prefetch={false} href="/areas">Áreas de atuação</Link></li>
         <li><Link prefetch={false} href="about">Quem somos</Link></li>
         <li><Link prefetch={false} href="contato">Contato</Link></li>
-        <li><Link prefetch={false} href="blog">Blog</Link></li>
+        <li><Link prefetch={false} href="blog">Artigos</Link></li>
       </ul>
 
       <ul className='align-self-start container'>

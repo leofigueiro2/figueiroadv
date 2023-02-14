@@ -20,7 +20,7 @@ export default function Conteudo3() {
           className={`${styled.div__card} position-relative`}
           onClick={() => router.push('/areas/trabalhista')}
         >
-          <Image className='img-fluid' src={Trabalho} alt="" />
+          <Image className='img-fluid' src={Trabalho} alt="imagem de trabalhadores ao fundo" />
           <div className={`${styled.card} mb-3 p-3`}>
             <h3 className={styled.card__titulo}>
               Direito do trabalho
@@ -32,7 +32,7 @@ export default function Conteudo3() {
           className={`${styled.div__card} position-relative`}
           onClick={() => router.push('/areas/sucessoes')}
         >
-          <Image className='img-fluid' src={Sucessao} alt="" />
+          <Image className='img-fluid' src={Sucessao} alt="Imagem de uma ampuleta, representando o tempo" />
           <div className={`${styled.card} mb-3 p-3`}>
             <h3 className={styled.card__titulo}>
               Sucessões
@@ -44,7 +44,7 @@ export default function Conteudo3() {
           className={`${styled.div__card} position-relative`}
           onClick={() => router.push('/areas/contratos')}
         >
-          <Image className='img-fluid' src={Contratos} alt="" />
+          <Image className='img-fluid' src={Contratos} alt="Imagem de pessoas assinando um contrato sobre a mesa" />
           <div className={`${styled.card} mb-3 p-3`}>
             <h3 className={styled.card__titulo}>
               Contratos
@@ -56,7 +56,7 @@ export default function Conteudo3() {
           className={`${styled.div__card} position-relative`}
           onClick={() => router.push('/areas/civil')}
         >
-          <Image className='img-fluid' src={RespCivil} alt="" />
+          <Image className='img-fluid' src={RespCivil} alt="Imagem de Themis, deusa grega da justiça" />
           <div className={`${styled.card} mb-3 p-3`}>
             <h3 className={styled.card__titulo}>
               Responsabilidade Civil

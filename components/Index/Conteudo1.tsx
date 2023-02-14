@@ -15,7 +15,7 @@ export default function Conteudo1() {
           <div className="d-flex flex-column align-items-center gap-3">
             <House />
             <h3>Sem sair de casa</h3>
-            <p>Tire suas dúvidas via Whatsapp sem precisar ir até o escritório</p>
+            <p>Tire suas dúvidas via Whatsapp sem precisar ir até o escritório. Nossos especialistas estão prontos para atender</p>
           </div>
           <div className="d-flex flex-column align-items-center gap-3">
             <Help />

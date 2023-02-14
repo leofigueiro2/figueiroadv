@@ -24,7 +24,7 @@ export default function Carrossel() {
           </div>
         </div>
         <div className="carousel-item">
-          <Image src={ImageTwo} alt={'Imagem de pessoas escrevendo em uma mesa, na frente de um computador'}/>
+          <Image src={ImageTwo} alt={'Imagem de uma tela de computador moderno'}/>
           
           <div className={`${styled.carrossel} carousel-caption d-none d-md-block`}>
             <h5 className={styled.h5}>Digital</h5>
@@ -32,7 +32,7 @@ export default function Carrossel() {
           </div>
         </div>
         <div className="carousel-item">
-          <Image src={ImageThree} alt={'Imagem de pessoas escrevendo em uma mesa, na frente de um computador'}/>
+          <Image src={ImageThree} alt={'Imagem de alguém com um lápis escrevendo em um caderno, sobre uma mesa'}/>
           
           <div className={`${styled.carrossel} carousel-caption d-none d-md-block`}>
             <h5 className={styled.h5}>Personalizado</h5>

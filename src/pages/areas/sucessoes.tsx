@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Contact from '../../../public/icons/Areas/contact.svg';
 import styled from '../../styles/Areas/Commons.module.scss';
 import Form from 'components/Commons/Form';
@@ -18,7 +19,7 @@ function Sucessoes() {
       <section className={styled.section} style={{ backgroundImage: 'url(\'/bgs/areas/sucessoes.webp\')' }}>
         <div className='d-flex flex-column container gap-3 py-5'>
 
-          <h1>Sucessões / Inventário</h1>
+          <h1>Advogados especialistas em Intentários / Sucessões</h1>
           <p>Entenda o que é sucessão e como podemos ajudar</p>
         </div>
       </section>
@@ -52,6 +53,9 @@ function Sucessoes() {
             <p className="section__texto">
               Para realização de inventário, seja judicial ou em cartório, é obrigatória a presença de advogado.
             </p>
+            <p className="section__texto">
+              <Link href={'/blog/21'} replace>O que faz um advogado especialista em inventário?</Link>
+            </p>
           </div>
           <h2 className="section__title">
             Passos para realização de um inventário
@@ -72,9 +76,15 @@ function Sucessoes() {
               que podem diminuir consideralmente os custos.
             </p>
             <p className="section__texto">
+              <Link href={'/blog/16'} replace>Como escolher um bom advogado</Link>
+            </p>
+            <p className="section__texto">
               Independentemente do procedimento escolhido, as partes devem estar cientes que diversos impostos devem ser recolhidos no decorrer do processo,
               e custos com registros e averbações podem também incidir no caso. Muitas partes optam, inclusive, em vender parte dos bens inventariados para
               ajudar no custeio do processo, em um procedimento que denominados cessão de direitos hereditário.
+            </p>
+            <p className="section__texto">
+              <Link href={'/blog/24'} replace>Como fazer uma partilha de forma justa e eficiente</Link>
             </p>
             <p className="section__texto">
               O inventário mais rápido (e recomendado por nós), é o extrajudicial, que pode ser finalizado em até uma semana, a depender do cartório
@@ -88,6 +98,9 @@ function Sucessoes() {
 
             <p className='section__texto'>
             Sim, é necessário pagar impostos sobre os bens do inventário, incluindo o Imposto de Transmissão Causa Mortis e Doação (ITCMD) e o Imposto de Renda (IR).
+            </p>
+            <p className='section__texto'>
+              <Link href={'/blog/29'} replace>Confira nosso artigo sobre os custos de um inventário</Link>
             </p>
           </div>
         </div>

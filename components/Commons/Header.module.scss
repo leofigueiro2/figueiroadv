@@ -82,7 +82,7 @@
 .logo {
   display: flex;
   align-items: center;
-  & h2 {
+  & span {
     color: var(--sys--light--on-secondary);
     font-family: var(--charm);
     font-size: var(--display--large);
@@ -93,7 +93,7 @@
 .logo_small {
   display: flex;
   align-items: center;
-  & h2 {
+  & span {
     color: var(--sys--light--on-secondary);
     font-family: var(--charm);
     font-size: var(--title--large);

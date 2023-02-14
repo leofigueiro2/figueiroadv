@@ -41,7 +41,7 @@ export default function Header() {
           <Logo width ={small ? '40px' : '100px'}/>
           
           
-          <h2>figueiró</h2>
+          <span>figueiró</span>
         </div>
         <nav className='d-none d-lg-block'>
           <ul className='gap-4 d-flex navb-items'>
@@ -75,7 +75,7 @@ export default function Header() {
             </li>
             <li><Link className={router.pathname === '/about' ? styled.link__ativo : ''} href="/about">Quem somos</Link></li>
             <li><Link className={router.pathname === '/contato' ? styled.link__ativo : ''} href="/contato">Contato</Link></li>
-            <li><Link className={router.pathname === '/blog' ? styled.link__ativo : ''} href="/blog">Blog</Link></li>
+            <li><Link className={router.pathname === '/blog' ? styled.link__ativo : ''} href="/blog">Artigos</Link></li>
           </ul>
         </nav>
         <div className='d-lg-none d-md-block'>

@@ -48,7 +48,7 @@ export default function OffCanvas() {
           <Link  href={'/contato'}>Contato</Link>
         </div>
         <div className="item" data-bs-dismiss="offcanvas">
-          <Link  href={'/blog'}>Blog</Link>
+          <Link  href={'/blog'}>Artigos</Link>
         </div>
 
       </div>

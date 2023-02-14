@@ -6,6 +6,7 @@ import { ReactElement, Suspense, lazy, useEffect, useState } from 'react';
 import Conteudo4 from 'components/Index/Conteudo4';
 import Head from 'next/head';
 import Loading from 'components/Commons/Loading';
+import IconsIndex from 'components/Index/Icons';
 
 
 const Conteudo1 = lazy(() => import('components/Index/Conteudo1'));
@@ -33,18 +34,11 @@ function Home() {
         <Conteudo2 />
         <Conteudo3 />
         <Conteudo4 />
+        <IconsIndex/>
       </Suspense>
     </>
   );
 }
-
-Home.getLayout = function getLayout(page: ReactElement) {
-  return (
-    <Layout>
-      {page}
-    </Layout>
-  );
-};
 
 
 export default Home;

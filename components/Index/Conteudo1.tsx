@@ -8,9 +8,9 @@ export default function Conteudo1() {
     <section className="bgSec py-4">
       <div className='container d-flex flex-column gap-4'>
 
-        <h2 className='section__title'>
-          Consultoria jurídica para pessoas físicas
-        </h2>
+        <h1 className='section__title'>
+          Consultoria jurídica para pessoas físicas - Inventários, contratos, trabalhista e responsabilidade civil
+        </h1>
         <div className={styled.cards__container}>
           <div className="d-flex flex-column align-items-center gap-3">
             <House />

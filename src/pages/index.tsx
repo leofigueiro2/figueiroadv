@@ -1,8 +1,7 @@
-import Layout from 'components/Commons/layout';
 //import Carrossel from 'components/Index/Carrossel';
 //import Conteudo2 from 'components/Index/Conteudo2';
 //import Conteudo1 from 'components/Index/Conteudo1';
-import { ReactElement, Suspense, lazy, useEffect, useState } from 'react';
+import {  Suspense, lazy, useEffect, useState } from 'react';
 import Conteudo4 from 'components/Index/Conteudo4';
 import Head from 'next/head';
 import Loading from 'components/Commons/Loading';

@@ -16,12 +16,10 @@ export default function Conteudo2() {
       <div className='d-flex flex-column gap-4 w-sm-100 container m-0'>
         <h3 className="section__title">Por que escolher um advogado online?</h3>
         <p>
-          A Figueiró advocacia possui mais 12 anos atuando de forma totalmente
-          digital e descomplicada. Tanto as orientações fornecidas em um primeiro
-          momento, quanto o processo, são realizados de forma sincronizada com o
-          cliente, dispensando totalmente o comparecimento no escritório. Basta entrar
-          em contato e responderemos o mais rápido possível, encaminhando o cliente
-          para a melhor alternativa para resolução de seu problema.
+        Há mais de uma década a Figueiró Advocacia está na vanguarda da prestação de serviços 
+        jurídicos digitais e descomplicados. O processo é sincronizado com o cliente, não sendo 
+        necessário comparecer à nossa sede. Entre em contato e nós retornaremos o mais breve possível, 
+        fornecendo a melhor solução para a sua necessidade jurídica.
         </p>
 
         <ul className='d-flex flex-column gap-1'>

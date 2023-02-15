@@ -10,10 +10,10 @@ function Sucessoes() {
   return (
     <>
       <Head>
-        <meta name="description" content="Aprenda tudo sobre inventário, incluindo conceitos, processos, documentação necessária, entre outros aspectos importantes."/>
-        <meta name="keywords" content="inventário, bens, herança, testamento, inventariante"/>
-        <meta name="robots" content="index,follow"/>
-        <meta name="revisit-after" content="7 days"/>
+        <meta name="description" content="Aprenda tudo sobre inventário, incluindo conceitos, processos, documentação necessária, entre outros aspectos importantes." />
+        <meta name="keywords" content="inventário, bens, herança, testamento, inventariante" />
+        <meta name="robots" content="index,follow" />
+        <meta name="revisit-after" content="7 days" />
         <link rel="canonical" href="https://www.figueiroadvocacia.com.br/areas/sucessoes" />
 
         <title> Inventários | Figueiró Advocacia</title>
@@ -29,19 +29,15 @@ function Sucessoes() {
       <section className='container d-flex py-5 flex-wrap flex-lg-nowrap gap-4'>
         <div className='container d-flex flex-column gap-4'>
           <h2 className="section__title">
-            Sucessão é o mesmo que inventário?
+            Qual é o papel de um inventário na partilha de bens?
+
           </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
-              É muito comum que as pessoas associem o direito das sucessões ao inventário, que é o tipo de processo mais comum nessa área do direito.
-              Mas o direito sucessório é um ramo do direito civil que vai muito além do processo de inventário, e envolve diversos tipos de processos,
-              judiciais e extrajudiciais.
+              Partilhar os bens entre os herdeiros é um processo complicado e demorado. A partilha dos bens depende de vários fatores, incluindo a documentação e as leis e regulamentos de herança do país. Embora alguns detalhes possam variar, é comum uma série de etapas que compõem o processo de partilha. Uma delas é o inventário. Neste artigo, vamos falar sobre o que é um inventário, seu papel na partilha de bens e como ele afeta a divisão dos ativos.
             </p>
-            <p className="section__texto">
-              Sucessões envolve a transmissão de bens de alguém em decorrência de sua morte. Pode significar a realização de inventário, mas também a confeção de testamento,
-              a partilha de bens, nomeação e remoção de inventariante, o planejamento sucessório, entre outros.
-            </p>
+
           </div>
           <h2 className="section__title">
             O que é inventário?
@@ -49,60 +45,68 @@ function Sucessoes() {
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
-              Inventário é um processo, realizado em cartório ou judicialmente, que serve para oficializar a transferência do patrimônio de uma pessoa falecida para seus
-              sucessores (herdeiros). Todo o conjunto de bens do falecido é reunído, avaliado e dividido pelos herdeiros conforme estabelecido em lei ou testamento.
-            </p>
-            <p className="section__texto">
-              Para realização de inventário, seja judicial ou em cartório, é obrigatória a presença de advogado.
-            </p>
-            <p className="section__texto">
-              <Link href={'/blog/21'} replace>O que faz um advogado especialista em inventário?</Link>
-            </p>
+              Um inventário é uma lista oficial e detalhada dos bens e das dívidas de um falecido. Ele é usado como parte do processo de partilha de bens e normalmente é preparado pelo advogado do falecido. O inventário também detalha se há alguma dívida deixada para trás. Um inventário pode ser revisto por todos os herdeiros a fim de garantir que todos obtenham sua parte justa.</p>
+
+            
           </div>
           <h2 className="section__title">
-            Passos para realização de um inventário
+            Como o Inventário Ajuda na Partilha de Bens?
           </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
-              O inventário é um procedimento complexo que possui várias fases, e pode ser feito inúmeras formas. As mais comuns são:
+              O inventário ajuda a garantir que a partilha de bens seja feita justa e equitativamente. O inventário também pode ajudar a evitar disputas entre os herdeiros sobre o que cada um recebeu, pois o inventário detalha exatamente que bens foram deixados, bem como quais dívidas ainda precisam ser pagas.
             </p>
-            <ul className='section__lista'>
-              <li>O inventário ordinário</li>
-              <li>O arrolamento sumário</li>
-              <li>O inventário extrajudicial</li>
-            </ul>
+
             <p className="section__texto">
-              Em todos eles, o primeiro passo é contratar um bom advogado especialista em sucessões. Tal passo é fundamental, tendo em vista
-              que um advogado especialista na área pode optar pelo procedimento mais adequado à necessidade das partes, bem como adotar estratégias
-              que podem diminuir consideralmente os custos.
+              <Link href={'/blog/24'} replace>Veja mais: Como fazer uma partilha de forma justa e eficiente</Link>
             </p>
-            <p className="section__texto">
-              <Link href={'/blog/16'} replace>Como escolher um bom advogado</Link>
-            </p>
-            <p className="section__texto">
-              Independentemente do procedimento escolhido, as partes devem estar cientes que diversos impostos devem ser recolhidos no decorrer do processo,
-              e custos com registros e averbações podem também incidir no caso. Muitas partes optam, inclusive, em vender parte dos bens inventariados para
-              ajudar no custeio do processo, em um procedimento que denominados cessão de direitos hereditário.
-            </p>
-            <p className="section__texto">
-              <Link href={'/blog/24'} replace>Como fazer uma partilha de forma justa e eficiente</Link>
-            </p>
-            <p className="section__texto">
-              O inventário mais rápido (e recomendado por nós), é o extrajudicial, que pode ser finalizado em até uma semana, a depender do cartório
-              e da disponibilidade da documentação.
-            </p>
+
           </div>
           <h2 className="section__title">
-          É preciso pagar impostos sobre os bens do inventário?
+            Como Funciona o Processo de Criação de um Inventário?
           </h2>
           <div className='d-flex flex-column gap-2'>
 
             <p className='section__texto'>
-            Sim, é necessário pagar impostos sobre os bens do inventário, incluindo o Imposto de Transmissão Causa Mortis e Doação (ITCMD) e o Imposto de Renda (IR).
+              O processo de criação de um inventário é geralmente supervisionado por um advogado experiente. O inventário é feito com base na documentação fornecida por familiares e amigos do falecido. Os bens e dívidas são validados e incluídos no inventário. O inventário é então entregue aos herdeiros para que possam verificar se cada um recebeu sua parte justa.
             </p>
             <p className='section__texto'>
-              <Link href={'/blog/29'} replace>Confira nosso artigo sobre os custos de um inventário</Link>
+              <Link href={'/blog/36'} replace>Veja mais: Como funciona um processo de inventário</Link>
+            </p>
+          </div>
+          <h2 className="section__title">
+            Quais São os Problemas Que Podem Ocorrer Durante o Processo de Partilha de Bens?
+          </h2>
+          <div className='d-flex flex-column gap-2'>
+
+            <p className='section__texto'>
+              É comum que os herdeiros não estejam de acordo com a divisão dos bens. Isso pode levar a litígios, problemas financeiros e outras complicações. No entanto, o inventário pode ajudar a evitar esses problemas, pois pode ser usado como referência ao qual todos os herdeiros podem recorrer para garantir que todos obtenham sua parte justa dos bens.
+            </p>
+
+          </div>
+          <h2 className="section__title">
+            Como é Feita a Divisão dos Bens?
+          </h2>
+          <div className='d-flex flex-column gap-2'>
+
+            <p className='section__texto'>
+              Quando o inventário é concluído e entregue, os herdeiros começam a processo de divisão dos bens. Isso geralmente envolve negociações entre os herdeiros, com base na documentação fornecida pelo inventário e na lei de herança aplicável. Às vezes, os herdeiros precisam contratar um mediador para ajudar a equilibrar as negociações.
+            </p>
+
+          </div>
+          <h2 className="section__title">
+            Conclusão
+          </h2>
+          <div className='d-flex flex-column gap-2'>
+
+            <p className='section__texto'>
+              Embora possa ser complicado, o processo de partilha dos bens deve ser encarado de forma responsável e com conhecimento de causa. O inventário ajuda a garantir que os bens sejam divididos de maneira justa entre os herdeiros, evitando problemas financeiros para todos. Preencha o formulário ao lado e converse com um especialista em inventário agora mesmo!
+            </p>
+
+
+            <p className="section__texto">
+              <Link href={'/blog/21'} replace>Veja mais: o que faz um advogado especialista em inventário?</Link>
             </p>
           </div>
         </div>

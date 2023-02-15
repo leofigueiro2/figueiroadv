@@ -10,12 +10,12 @@ const UltimasPostagens = ({ posts }: Props) => {
     return <Loading />;
   }
 
-  const firstThreePosts = posts.slice(0, 3);
+  const firstThreePosts = posts.slice(0, 6);
 
   return (
     <section className={`${styled.section} d-flex flex-column`}>
       <h2 className='section__title'>Ultimas Postagens</h2>
-      <div className='d-flex row flex-wrap flex-lg-nowrap align-items-center py-5'>
+      <div className='d-flex row flex-wrap align-items-center py-5'>
         {
           firstThreePosts.map((post) => (
             <CardUltimoPost
@@ -31,17 +31,6 @@ const UltimasPostagens = ({ posts }: Props) => {
           ))
         }
       </div>
-
-
-      {/* <Card
-        titulo={post1.title.rendered}
-        link={`/blog/${post1.id}`}
-        src={post1.featured_image_versions.versions.thumbnail}
-        alt={post1.featured_image_versions.alt}
-        autor={'Figueiró Advocacia'}
-        data={data1}
-        leitura={post1.tempo.toString()}
-      /> */}
     </section >
   );
 };

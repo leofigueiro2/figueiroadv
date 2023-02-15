@@ -16,6 +16,8 @@ function Home() {
     <>
       <Head>
         <title> Especialidades | Figueiró Advocacia</title>
+        <link rel="canonical" href="https://www.figueiroadvocacia.com.br/areas" />
+
       </Head>
       <section className="bgSec container-fluid py-4 d-flex flex-column align-items-center justify-content-center gap-4">
         <h1 className='section__title'>Áreas de atuação</h1>

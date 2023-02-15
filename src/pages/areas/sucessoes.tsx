@@ -14,6 +14,8 @@ function Sucessoes() {
         <meta name="keywords" content="inventário, bens, herança, testamento, inventariante"/>
         <meta name="robots" content="index,follow"/>
         <meta name="revisit-after" content="7 days"/>
+        <link rel="canonical" href="https://www.figueiroadvocacia.com.br/areas/sucessoes" />
+
         <title> Inventários | Figueiró Advocacia</title>
       </Head>
       <section className={styled.section} style={{ backgroundImage: 'url(\'/bgs/areas/sucessoes.webp\')' }}>

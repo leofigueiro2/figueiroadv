@@ -72,6 +72,10 @@ function Postagem({ post, posts }: PropsPost) {
         <title>{post.title.rendered}</title>
         <meta name="title" content={post.title.rendered}/>
         <meta name="description" content={post.excerpt.rendered}/>
+        <meta name="keywords" content="advogados online, serviços jurídicos, direito, soluções jurídicas, avaliação gratuita" />
+        <meta name="robots" content="index,follow" />
+        <meta name="revisit-after" content="7 days" />
+        <link rel="canonical" href={`https://www.figueiroadvocacia.com.br/blog/${post.id.toString()}`} />
       </Head>
       <HeaderPost posts={post} />
       <div className='container'>

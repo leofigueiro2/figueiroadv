@@ -26,6 +26,11 @@ function Home() {
     <>
       <Head>
         <title> Início | Figueiró Advocacia</title>
+        <meta name="description" content="Soluções jurídicas personalizadas e acessíveis para ajudar a resolver seus problemas. Entre em contato conosco agora para obter uma avaliação gratuita." />
+        <meta name="keywords" content="advogados online, serviços jurídicos, direito, soluções jurídicas, avaliação gratuita" />
+        <meta name="robots" content="index,follow" />
+        <meta name="revisit-after" content="7 days" />
+        <link rel="canonical" href="https://www.figueiroadvocacia.com.br" />
       </Head>
       <Suspense fallback={<Loading />}>
         {renderCarrossel && <Carrossel />}

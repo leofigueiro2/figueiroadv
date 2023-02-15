@@ -27,7 +27,7 @@ export const getStaticProps = async () => {
 
         })),
       },
-      revalidate: 3600,
+      revalidate: 60,
     };
   } catch (error) {
     console.error('Erro na requisição dos Posts', error);

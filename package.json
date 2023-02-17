@@ -27,7 +27,7 @@
     "react-gtm-module": "^2.0.11",
     "react-input-mask": "^2.0.4",
     "sass": "^1.57.1",
-    "sharp": "^0.31.3",
+    "sharp": "0.31.1",
     "typescript": "*"
   },
   "devDependencies": {

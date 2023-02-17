@@ -59,7 +59,7 @@ function Sucessoes() {
             </p>
 
             <p className="section__texto">
-              <Link href={'/blog/24'} replace>Veja mais: Como fazer uma partilha de forma justa e eficiente</Link>
+              <Link href='http://www.figueiroadvocacia.com.br/blog/24'>Veja mais: Como fazer uma partilha de forma justa e eficiente</Link>
             </p>
 
           </div>
@@ -72,7 +72,7 @@ function Sucessoes() {
               O processo de criação de um inventário é geralmente supervisionado por um advogado experiente. O inventário é feito com base na documentação fornecida por familiares e amigos do falecido. Os bens e dívidas são validados e incluídos no inventário. O inventário é então entregue aos herdeiros para que possam verificar se cada um recebeu sua parte justa.
             </p>
             <p className='section__texto'>
-              <Link href={'/blog/36'} replace>Veja mais: Como funciona um processo de inventário</Link>
+              <Link href='http://www.figueiroadvocacia.com.br/blog/36'>Veja mais: Como funciona um processo de inventário</Link>
             </p>
           </div>
           <h2 className="section__title">
@@ -106,7 +106,7 @@ function Sucessoes() {
 
 
             <p className="section__texto">
-              <Link href={'/blog/21'} replace>Veja mais: o que faz um advogado especialista em inventário?</Link>
+              <Link href='http://www.figueiroadvocacia.com.br/blog/21'>Veja mais: o que faz um advogado especialista em inventário?</Link>
             </p>
           </div>
         </div>

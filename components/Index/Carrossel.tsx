@@ -16,7 +16,7 @@ export default function Carrossel() {
 
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <Image src={ImageOne} alt={'Imagem de pessoas escrevendo em uma mesa, na frente de um computador'}/>
+          <Image src={ImageOne} alt={'Imagem de pessoas escrevendo em uma mesa, na frente de um computador'} priority/>
           
           <div className={`${styled.carrossel} carousel-caption d-none d-md-block`}>
             <h1 className={styled.h5}>Inovador</h1>

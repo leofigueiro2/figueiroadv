@@ -8,7 +8,7 @@ export default function Header() {
         <div className="d-flex gap-4 container">
           <span className={styled.leftborder}></span>
           <div className='d-flex flex-column justify-content-center gap-3'>
-            <h1 className={styled.title}>Últimos artigos publicados</h1>
+            <h2 className={styled.title}>Últimos artigos publicados</h2>
           </div>
         </div>
       </div>

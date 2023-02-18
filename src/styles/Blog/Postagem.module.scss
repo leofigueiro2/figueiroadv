@@ -31,11 +31,8 @@
   }
   & ol {
     margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 23px;
     list-style-type: decimal;
-    & li {
-      font-size: var(--headline--small);
-      font-weight: 500;
-    }
   }
 }

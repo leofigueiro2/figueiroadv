@@ -37,11 +37,13 @@ export const getStaticProps = async (context: Context) => {
 
     const res2 = await http.get('/posts/');
     const posts:Post[] = res2.data;
+    const firstTenPosts = posts.slice(0, 10);
+
     
     return {
       props: {
         post,
-        posts: posts.map((post) => ({
+        posts: firstTenPosts.map((post) => ({
           id: post.id,
           title: post.title
         }))

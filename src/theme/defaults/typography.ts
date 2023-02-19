@@ -89,6 +89,19 @@ export const typography = {
         md: '16px',
       },
     },
+    title2: {
+      fontWeight: {
+        xs: '400',
+        md: '400',
+      },
+      lineHeight: {
+        xs: '24px',
+        md: '24px',
+      },
+      fontSize: {
+        xs: '17px',
+      },
+    },
     body1: {
       fontWeight: {
         xs: '400',

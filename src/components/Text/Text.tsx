@@ -24,7 +24,7 @@ const Text = React.forwardRef(({
     <BaseComponent
       as={tag}
       styleSheet={{
-        fontFamily: theme.typography.fontFamily,
+        fontFamily: theme.typography.fontDefault,
         ...textVariant,
         ...styleSheet,
       }}

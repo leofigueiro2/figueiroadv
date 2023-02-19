@@ -1,27 +1,23 @@
 import Box from "@src/components/Box/Box"
-import Icon from "@src/components/Icon/Icon"
-import Text from "@src/components/Text/Text"
 import theme from "@src/theme/theme"
+import Logo from "./Logo/Logo"
+import Container from "@src/components/Container/Container"
+import Menu from "./Menu/Menu"
 
 export default function Header() {
   return (
     <Box tag="header" styleSheet={{
-      backgroundColor: theme.colors.secondary.x400,
+      backgroundColor: theme.colors.secondary.x040,
+      width: '100%'
     }}>
-      <Box styleSheet={{
+      <Container styleSheet={{
+        alignItems: 'center',
         flexDirection: 'row',
-        alignItems: 'center'
+        justifyContent: 'space-between'
       }}>
-
-      <Icon name="logo" styleSheet={{
-        width: '124px',
-        height: '124px'
-      }}/>
-      <Text variant='display1' styleSheet={{
-        color: theme.colors.secondary.onSecondary,
-        fontFamily: theme.typography.fontDisplay
-      }}>figueiro</Text>
-      </Box>
+        <Logo />
+        <Menu/>
+      </Container>
     </Box>
   )
 }

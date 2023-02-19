@@ -11,7 +11,7 @@ interface LinkProps {
   children: React.ReactNode;
   styleSheet?: StyleSheet;
   variant?: ThemeTypographyVariants;
-  colorVariant?: 'primary' | 'accent' | 'neutral' | 'success' | 'warning' | 'negative';
+  colorVariant?: 'primary' | 'secondary' | 'neutral' | 'success' | 'warning' | 'negative';
   colorVariantEnabled?: boolean;
 }
 
@@ -24,25 +24,21 @@ const Link = React.forwardRef(({
   ...props
 }:LinkProps, ref) => {
   const theme = useTheme();
-  const isIExternalLink = href.startsWith('http');
 
   const currentColorSet = {
-    color: theme.colors[colorVariant].x500,
+    color: theme.colors[colorVariant].x099,
     hover: {
-      color: theme.colors[colorVariant].x400,
+      color: theme.colors[colorVariant].x095,
     },
-    focus: {
-      color: theme.colors[colorVariant].x600,
-    }
   };
 
   const linkProps = {
-    tag: 'a',
     ref,
     children,
     href,
     styleSheet: {
       textDecoration: 'none',
+      fontFamily: theme.typography.fontDefault,
       ...colorVariantEnabled && {
         color: currentColorSet.color,
       },
@@ -50,37 +46,22 @@ const Link = React.forwardRef(({
       hover: {
         ...styleSheet?.hover,
         ...colorVariantEnabled && {
-          color: currentColorSet.focus.color,
-        }
-      },
-      focus: {
-        ...styleSheet?.focus,
-        ...colorVariantEnabled && {
-          color: currentColorSet.focus.color,
+          color: currentColorSet.hover.color,
         }
       },
     },
     ...props
   }
 
-  if(isIExternalLink) return (
-    <Text 
-      {...{
-        target: '_blank',
-        ...linkProps,
-      }}
-    />
-  )
-
   return (
-    <NextLink href={href} passHref>
+    <NextLink href={href} style={{textDecoration: 'none'}} passHref>
       <Text {...linkProps} />
     </NextLink>
   )
 });
 
 Link.defaultProps = {
-  colorVariant: 'primary',
+  colorVariant: 'secondary',
   colorVariantEnabled: true,
 };
 

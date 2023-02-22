@@ -9,14 +9,14 @@ export const typography = {
         xs: '-0.4px',
       },
       fontWeight: {
-        xs: '800',
+        xs: '700',
       },
       lineHeight: {
-        xs: '1.5',
+        xs: '64px',
       },
       fontSize: {
         xs: '48px',
-        md: '60px',
+        md: '57px',
       },
     },
     heading1: {
@@ -89,6 +89,34 @@ export const typography = {
         md: '16px',
       },
     },
+    headline2: {
+      fontWeight: {
+        xs: '500',
+        md: '500',
+      },
+      lineHeight: {
+        xs: '36px',
+        md: '36px',
+      },
+      fontSize: {
+        xs: '28px',
+        md: '28px',
+      },
+    },
+    headline3: {
+      fontWeight: {
+        xs: '500',
+        md: '500',
+      },
+      lineHeight: {
+        xs: '32px',
+        md: '32px',
+      },
+      fontSize: {
+        xs: '23px',
+        md: '23px',
+      },
+    },
     title2: {
       fontWeight: {
         xs: '400',
@@ -112,7 +140,7 @@ export const typography = {
         md: '1.5',
       },
       fontSize: {
-        xs: '18px',
+        xs: '16px',
       },
     },
     body2: {

@@ -10,10 +10,6 @@ interface BoxProps {
 export default function ContainerFluid({ styleSheet, children, tag, ...props }: BoxProps) {
   const Tag = tag || 'div';
   styleSheet = {
-    paddingRight: '15px',
-    paddingLeft: '15px',
-    marginRight: 'auto',
-    marginLeft: 'auto',
     width: {
       xs: "100%",
       sm: "100%",

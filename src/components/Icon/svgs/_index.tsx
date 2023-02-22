@@ -7,3 +7,7 @@ export { default as linkedin } from './linkedin';
 export { default as github } from './github';
 export { default as clock_fill } from './clock_fill';
 export { default as logo} from './figueiro';
+export { default as whatsapp} from './whatsapp';
+export { default as Freedom} from './freedom';
+export { default as House} from './house';
+export { default as Help} from './help';

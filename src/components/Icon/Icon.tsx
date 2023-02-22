@@ -18,6 +18,7 @@ interface IconProps {
 export default function Icon({ size, name, ...props }: IconProps) {
   const CurrentIcon = icons[name];
   if(!CurrentIcon) return <>"${name}" is not a valid <Icon /></>;
+  if(typeof CurrentIcon === 'function') {
   return (
     // <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <BaseComponent
@@ -28,13 +29,14 @@ export default function Icon({ size, name, ...props }: IconProps) {
       }}
       color="inherit"
       fill="currentColor"
-      viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
       <CurrentIcon />
     </BaseComponent>
-  )
+  )} else {
+    return null
+  }
 }
 
 Icon.defaultProps = {

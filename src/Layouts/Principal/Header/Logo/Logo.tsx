@@ -14,8 +14,20 @@ export default function Logo() {
     }}>
 
       <Icon name="logo" styleSheet={{
-        width: '124px',
-        height: '124px'
+        width: {
+          xs: "80px",
+          sm: "95px",
+          md: "100px",
+          lg: "115px",
+          xl: '124px'
+          },
+        height: {
+          xs: "80px",
+          sm: "95px",
+          md: "100px",
+          lg: "115px",
+          xl: '124px'
+          }
       }} />
       <Text variant='display1' styleSheet={{
         color: theme.colors.secondary.x099,

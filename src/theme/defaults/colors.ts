@@ -83,6 +83,7 @@ export const colors = {
     x098: '#FFF8F7',
     x099: '#FFFBFF',
     x100: '#FFFFFF',
+    container: '#EAE0E0'
   },
   primary: {
     x000: '#000000',

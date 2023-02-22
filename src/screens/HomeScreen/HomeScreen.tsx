@@ -1,17 +1,17 @@
 import LayoutPrincipal from "@src/Layouts/Principal/LayoutPrincipal";
 import { ReactElement } from "react";
-import Text from "@src/components/Text/Text";
-import theme from "@src/theme/theme";
+import { Carrossel, SectionIcones } from "./Componentes";
+import FaleConosco from "./Componentes/FaleConosco/FaleConosco";
 
 function HomeScreen() {
   return (
-    <Text styleSheet={{
-      fontFamily: theme.typography.fontDisplay
-    }}>Olá mundo</Text>
+    <>
+      <Carrossel/>
+      <SectionIcones/>
+      <FaleConosco/>
+    </>
   )
 }
-
-
 HomeScreen.getLayout = function getLayout(page: ReactElement) {
   return (
     <LayoutPrincipal>

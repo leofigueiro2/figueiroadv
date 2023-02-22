@@ -1,7 +1,7 @@
 {
   "name": "figueiroadv",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
+  "main": "index.tsx",
   "repository": "https://github.com/leonardofigueiro/figueiroadv.git",
   "author": "leonardofigueiro <leonardo.figueiro@yahoo.com.br>",
   "license": "MIT",

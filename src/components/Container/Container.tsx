@@ -10,8 +10,20 @@ interface BoxProps {
 export default function Container({ styleSheet, children, tag, ...props }: BoxProps) {
   const Tag = tag || 'div';
   styleSheet = {
-    paddingRight: '15px',
-    paddingLeft: '15px',
+    paddingRight: {
+      xs: "5px",
+      sm: "8px",
+      md: "10px",
+      lg: "15px",
+      xl: "15px"
+    },
+    paddingLeft: {
+      xs: "5px",
+      sm: "8px",
+      md: "10px",
+      lg: "15px",
+      xl: "15px"
+    },
     marginRight: 'auto',
     marginLeft: 'auto',
     width: {
